@@ -1,35 +1,30 @@
-const express = require('express');
-const cors = require('cors');
+import express from "express";
+import cors from "cors";
 
-const telemetryRoutes = require('./routes/telemetry.routes');
-
-
-const alertRoutes = require('./routes/alerts.routes');
-const healthRoutes = require('./routes/health.routes');
-
-const usersRoutes = require('./routes/users.routes');
-const authRoutes = require('./routes/auth.routes');
-
-const devicesRoutes = require('./routes/devices.routes');
-
+import telemetryRoutes from "./routes/telemetry.routes.js";
+import alertRoutes from "./routes/alerts.routes.js";
+import healthRoutes from "./routes/health.routes.js";
+import usersRoutes from "./routes/users.routes.js";
+import authRoutes from "./routes/auth.routes.js";
+import devicesRoutes from "./routes/devices.routes.js";
+import ecgRoutes from "./routes/vitals/ecg.routes.js";
+import spo2Routes from "./routes/vitals/spo2.routes.js";
 
 const app = express();
-app.use(cors({ origin: '*' }));
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
+// Core APIs
+app.use("/alerts", alertRoutes);
+app.use("/users", usersRoutes);
+app.use("/auth", authRoutes);
+app.use("/telemetry", telemetryRoutes);
+app.use("/health", healthRoutes);
+app.use("/devices", devicesRoutes);
 
-app.use('/alerts', alertRoutes);
+// Vitals
+app.use("/vitals", ecgRoutes);
+app.use("/vitals/spo2", spo2Routes);
 
-app.use('/users', usersRoutes);
-app.use('/auth', authRoutes);
-
-app.use('/telemetry', telemetryRoutes);
-
-
-app.use('/health', healthRoutes);
-app.use('/devices', devicesRoutes);
-
-
-module.exports = app;
+export default app;

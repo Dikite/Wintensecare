@@ -1,38 +1,31 @@
 package com.example.wintensecare.data.api
 
-import android.content.Context
-import com.example.wintensecare.data.datastore.TokenStore
-import kotlinx.coroutines.runBlocking
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.atomic.AtomicReference
 
 object ApiClient {
 
-    private const val BASE_URL = "http://192.168.0.174:4000/"
+    private const val BASE_URL = "http://192.168.0.229:4000/"
 
-    private lateinit var appContext: Context
+    // 🔐 Thread-safe token holder
+    private val tokenRef = AtomicReference<String?>(null)
 
-    fun init(context: Context) {
-        appContext = context.applicationContext
+    fun updateToken(token: String?) {
+        tokenRef.set(token)
     }
 
     private val authInterceptor = Interceptor { chain ->
-        val tokenStore = TokenStore(appContext)
+        val requestBuilder = chain.request().newBuilder()
 
-        val token = runBlocking {
-            tokenStore.getTokenOnce()
+        tokenRef.get()?.let { token ->
+            requestBuilder.addHeader("Authorization", "Bearer $token")
         }
 
-        val request = chain.request().newBuilder().apply {
-            if (!token.isNullOrEmpty()) {
-                addHeader("Authorization", "Bearer $token")
-            }
-        }.build()
-
-        chain.proceed(request)
+        chain.proceed(requestBuilder.build())
     }
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {

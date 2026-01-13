@@ -69,6 +69,8 @@ dependencies {
 
     implementation("androidx.navigation:navigation-compose:2.8.0")
     implementation(libs.play.services.cast)
+    implementation(libs.firebase.sessions)
+    implementation(libs.androidx.compose.foundation)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

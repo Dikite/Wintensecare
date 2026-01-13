@@ -11,7 +11,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
 fun LoginScreen(
-    onLoginSuccess: () -> Unit
+    onLoginSuccess: () -> Unit,
+    onGoToRegister: () -> Unit
 ) {
     val viewModel: LoginViewModel = viewModel()
     val loginState by viewModel.loginState.collectAsState()
@@ -73,6 +74,9 @@ fun LoginScreen(
             }
 
             Spacer(modifier = Modifier.height(16.dp))
+            TextButton(onClick = onGoToRegister) {
+                Text("Don't have an account? Register")
+            }
 
             when (loginState) {
                 is LoginState.Loading -> {

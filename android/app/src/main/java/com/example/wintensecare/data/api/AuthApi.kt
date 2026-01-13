@@ -9,6 +9,22 @@ data class LoginRequest(
     val password: String
 )
 
+data class HeartRatePoint(
+    val bpm: Int,
+    val time: String
+)
+
+data class RegisterRequest(
+    val identifier: String,
+    val password: String,
+    val confirmPassword: String
+)
+
+
+data class RegisterResponse(
+    val accessToken: String
+)
+
 // -------- RESPONSE MODELS --------
 data class LoginResponse(
     val accessToken: String
@@ -21,4 +37,11 @@ interface AuthApi {
     suspend fun login(
         @Body request: LoginRequest
     ): LoginResponse
+
+    @POST("auth/register")
+    suspend fun register(
+        @Body request: RegisterRequest
+    ): LoginResponse   // backend returns accessToken
+
 }
+

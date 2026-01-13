@@ -10,7 +10,7 @@ async function createDevice(req, res) {
   const device = await prisma.device.create({
     data: {
       name,
-      type: 'MOCK_WATCH',
+      type: 'Wearable_device',
       userId: req.user.id,
     },
   });
