@@ -1,0 +1,610 @@
+{
+  "navbar": {
+    "profile": "சுயவிவரம்",
+    "devices": "சாதனங்கள்",
+    "dataSharing": "தரவு பகிர்வு",
+    "permissions": "அனுமதிகள்",
+    "logout": "வெளியேறு",
+    "live": "நேரலை",
+    "startLive": "நேரலை தொடங்கு",
+    "alerts": "எச்சரிக்கைகள்",
+    "refresh": "புதுப்பி"
+  },
+  "doctorAccess": {
+    "title": "மருத்துவர் அணுகல்",
+    "doctorId": "மருத்துவர் ஐடி",
+    "recordId": "பதிவு ஐடி",
+    "changeAccess": "அணுகலை மாற்று",
+    "removeAccess": "அணுகலை நீக்கு",
+    "grantAccess": "அணுகலை வழங்கு",
+    "deletePermanent": "நிரந்தரமாக நீக்கு",
+    "changeAccessTitle": "மருத்துவர் அணுகலை மாற்று",
+    "changeAccessText": "{name} அவர்களின் அணுகலை {current} → {next} ஆக மாற்ற வேண்டுமா?",
+    "revokeTitle": "மருத்துவர் அணுகலை ரத்து செய்",
+    "revokeText": "{name} அவர்களின் அணுகலை ரத்து செய்ய விரும்புகிறீர்களா?",
+    "cancel": "ரத்து",
+    "confirm": "உறுதி செய்",
+    "revoke": "ரத்து செய்"
+  },
+  "dashboardHeader": {
+  "systemTime": "அமைப்பு நேரம்",
+  "latestMeasurement": "சமீபத்திய அளவீடு",
+  "noActiveDoctors": "செயலில் உள்ள மருத்தவர்கள் இல்லை",
+  "noData": "தரவு இல்லை"
+},
+ "profile": {
+    "title": "என் சுயவிவரம்",
+    "subtitle": "உங்கள் கணக்கு தகவல்களை நிர்வகிக்கவும்",
+    "userId": "பயனர் ஐடி",
+    "email": "மின்னஞ்சல்",
+    "role": "பங்கு",
+    "standardUser": "சாதாரண பயனர்"
+  },
+ 
+  "permissions": {
+    "title": "அனுமதிகள்",
+    "subtitle": "ஆப் தரவை எவ்வாறு பயன்படுத்துகிறது என்பதை கட்டுப்படுத்து",
+ 
+    "criticalAlerts": "முக்கிய எச்சரிக்கைகள்",
+    "backgroundMonitoring": "பின்னணி கண்காணிப்பு",
+    "cloudSync": "கிளவுட் ஒத்திசைவு",
+    "analyticsUsage": "பயன்பாட்டு பகுப்பாய்வு",
+    "autoConnect": "சாதனத்தை தானாக இணை",
+ 
+    "descCriticalAlerts": "முக்கிய ஆரோக்கிய எச்சரிக்கைகளை பெற",
+    "descBackgroundMonitoring": "பின்னணியில் கண்காணிக்க அனுமதி",
+    "descCloudSync": "தரவை கிளவுட் சேவைக்கு ஒத்திசை",
+    "descAnalyticsUsage": "அடையாளம் தெரியாத பயன்பாட்டு தரவை பகிர்",
+    "descAutoConnect": "வேயரபிள் சாதனத்தை தானாக இணைக்கவும்"
+ 
+},
+ 
+  "devices": {
+    "title": "உங்கள் சாதனத்தை தேர்வு செய்யவும்",
+    "subtitle": "தொடர ஒரு இணைக்கப்பட்ட wearable சாதனத்தை தேர்வு செய்யவும்",
+    "add": "சேர்",
+    "addDevice": "சாதனம் சேர்க்க",
+    "addNewDevice": "புதிய சாதனம் சேர்க்க",
+    "deviceName": "சாதனத்தின் பெயர்",
+    "wearableType": "Wearable வகை",
+    "cancel": "ரத்து",
+    "confirm": "உறுதி செய்",
+    "confirmDelete": "நீக்கத்தை உறுதி செய்",
+    "deleteMessage": "இந்த சாதனத்தை நீக்க விரும்புகிறீர்களா?",
+    "delete": "நீக்கு",
+    "select": "தேர்வு செய்",
+    "noDevices": "சாதனங்கள் இல்லை",
+    "noDevicesSubtitle": "தொடர உங்கள் முதல் wearable சாதனத்தை சேர்க்கவும்"
+  },
+  "telemetry": {
+    "comingSoon": "Telemetry UI விரைவில் வருகிறது"
+ 
+},
+ 
+"sleep": {
+  "title": "தூக்க கண்காணிப்பு",
+  "subtitle": "தூக்க நேரம் மற்றும் தூக்க நிலை விகிதம்",
+  "latestSleep": "சமீபத்திய தூக்கம்",
+  "noData": "தரவு இல்லை",
+  "loading": "தூக்க தரவு ஏற்றப்படுகிறது...",
+  "noSleepData": "தூக்க தரவு இல்லை",
+  "averageSleep": "சராசரி தூக்கம்",
+  "efficiency": "திறன்",
+  "schedule": "தூக்க அட்டவணை",
+  "good": "நன்று",
+  "moderate": "மிதமான",
+  "low": "குறைவு",
+ 
+   "sleepRatio": "தூக்க விகிதம்",
+  "noRatioData": "விகித தரவு இல்லை",
+  "noSleepSession": "இன்றைக்கு தூக்க பதிவு இல்லை",
+ 
+  "total": "மொத்தம்",
+  "deep": "ஆழ்ந்த தூக்கம்",
+  "light": "லேசான தூக்கம்",
+  "rem": "REM தூக்கம்",
+  "awake": "விழிப்பு"
+},
+ 
+ 
+"bp": {
+  "title": "இரத்த அழுத்தம்",
+  "subtitle": "சிஸ்டாலிக் / டயஸ்டாலிக் பகுப்பாய்வு",
+  "lastMeasurement": "கடைசி அளவீடு",
+  "pulse": "இதய துடிப்பு",
+  "noData": "தரவு இல்லை",
+ 
+  "normal": "சாதாரணம்",
+  "low": "குறைவு",
+  "elevated": "உயர்வு",
+  "stage1": "நிலை 1",
+  "stage2": "நிலை 2",
+ 
+  "normalAdvice": "சாதாரண BP",
+  "lowAdvice": "குறைந்த BP",
+  "elevatedAdvice": "சிறிது அதிகம்",
+  "stage1Advice": "உயர் BP",
+  "stage2Advice": "மிக அதிக BP",
+ 
+   "rangeIndicator": "BP வரம்பு குறிகாட்டி",
+ 
+  "sys": "sys",
+  "bpm": "bpm"
+},
+ 
+ 
+"glucose": {
+  "title": "குளுக்கோஸ்",
+  "subtitle": "இரத்த சர்க்கரை பகுப்பாய்வு",
+  "noData": "தரவு இல்லை",
+  "low": "குறைவு",
+  "normal": "சாதாரணம்",
+  "high": "அதிகம்",
+  "avg": "சராசரி",
+  "min": "குறைந்தது",
+  "max": "அதிகபட்சம்",
+  "unit": "mg/dL"
+},
+ 
+"temperature": {
+  "title": "உடல் வெப்பநிலை",
+  "subtitle": "தொடர்ச்சியான கண்காணிப்பு",
+  "currentTemperature": "தற்போதைய வெப்பநிலை",
+  "temperature": "வெப்பநிலை",
+  "status": "நிலை",
+  "high": "அதிகம்",
+  "normal": "சாதாரணம்",
+  "low": "குறைவு",
+  "noData": "தரவு இல்லை"
+},
+ 
+ 
+ 
+
+
+
+
+
+  "alerts": {
+    "heartRateAlert": "இதய துடிப்பு எச்சரிக்கை",
+    "batteryAlert": "பேட்டரி எச்சரிக்கை",
+    "heartRateRecorded": "இதய துடிப்பு {value} bpm ஆக பதிவானது",
+    "batteryDropped": "பேட்டரி நிலை {value}% ஆக குறைந்தது",
+    "acknowledge": "ஒப்புதல்"
+  },
+
+  
+  "exerciseMetric": {
+    "title": "உடற்பயிற்சி செயல்பாடு",
+    "live": "நேரலை",
+    "inactive": "செயலற்றது",
+    "move": "இயக்கம்",
+    "exercise": "உடற்பயிற்சி",
+    "walking": "நடை",
+    "workouts": "உடற்பயிற்சிகள்",
+    "totalDuration": "மொத்த காலம்"
+  
+},
+
+  "activityDonut": {
+    "weeklyActivity": "வாராந்திர {type} செயல்பாடு",
+    "mins": "நிமிடங்கள்",
+    "completed": "முடிந்தது",
+
+    "motivationStart": "தொடங்கலாம் 💪",
+    "motivationProgress": "நல்ல முன்னேற்றம், தொடருங்கள் 🚶",
+    "motivationAlmost": "கிட்டத்தட்ட முடிந்தது 🔥",
+    "motivationDone": "அற்புதமான வேலை 🏆"
+  },
+  
+  "exerciseForm": {
+    "title": "செட் சேர்க்கவும் (எடை & ரெப்ஸ்)",
+    "exercise": "உடற்பயிற்சி",
+    "reps": "ரெப்ஸ்",
+    "weight": "எடை (கிலோ)",
+    "saveSet": "செட் சேமிக்கவும்",
+    "startWorkout": "செட்களைச் சேர்க்க ஜிம் பயிற்சியை தொடங்குங்கள்",
+    "success": "செட் வெற்றிகரமாக சேர்க்கப்பட்டது"
+  },
+
+  
+  "createExerciseForm": {
+    "exerciseName": "உடற்பயிற்சி பெயர்",
+    "muscleGroup": "மஸில் குழு",
+    "createExercise": "உடற்பயிற்சி உருவாக்கவும்",
+
+    "muscles": {
+      "CHEST": "மார்பு",
+      "BACK": "முதுகு",
+      "LEGS": "கால்கள்",
+      "SHOULDERS": "தோள்கள்",
+      "BICEPS": "பைசெப்ஸ்",
+      "TRICEPS": "ட்ரைசெப்ஸ்",
+      "CORE": "மைய தசைகள்",
+      "FULL_BODY": "முழு உடல்"
+    }
+  },
+
+  "exerciseSlider": {
+    "title": "உருவாக்கப்பட்ட உடற்பயிற்சிகள்",
+    "firstUsed": "முதல் முறையாக பயன்படுத்தப்பட்டது",
+    "notUsed": "இன்னும் பயன்படுத்தப்படவில்லை",
+    "empty": "உடற்பயிற்சிகள் இன்னும் உருவாக்கப்படவில்லை"
+  },
+
+  
+  "liveWorkout": {
+    "steps": "அடிகள்",
+    "today": "இன்று",
+    "heartRate": "இதய துடிப்பு",
+    "avgHR": "சராசரி HR",
+    "dailyGoal": "தினசரி இலக்கு",
+    "setGoalSubtitle": "உங்கள் உடற்பயிற்சி இலக்கை அமைக்கவும்",
+    "completed": "முடிந்தது",
+    "goalReached": "இன்று உங்கள் இலக்கின் {percent}% அடைந்துள்ளீர்கள்",
+    "save": "சேமிக்கவும்",
+    "setGoals": "உடற்பயிற்சி இலக்குகளை அமைக்கவும்"
+  },
+  
+  "todayProgress": {
+    "title": "இன்றைய செயல்பாடு",
+    "minutesActive": "நிமிடங்கள் செயலில்",
+    "noActivity": "செயல்பாடு இல்லை",
+    "total": "மொத்தம்",
+    "breakdownTitle": "இன்றைய பிரிவு",
+    "noWorkout": "இன்று உடற்பயிற்சி இல்லை"
+  },
+  
+  "weeklyStats": {
+    "title": "Weekly Summary",
+    "workouts": "Workouts",
+    "duration": "Duration",
+    "calories": "Calories",
+    "avgHR": "Avg HR"
+  },
+  
+  "fitnessWeekly": {
+    "title": "உடற்பயிற்சி செயல்பாடு",
+    "subtitle": "வாராந்திர உடற்பயிற்சி செயல்பாடு",
+    "noWorkouts": "உடற்பயிற்சி இல்லை",
+    "kcal": "கலோரி"
+  },
+  
+  "workoutControls": {
+    "cardio": "கார்டியோ",
+    "hiit": "HIIT",
+    "walk": "நடை",
+    "run": "ஓட்டம்",
+    "gym": "ஜிம்",
+    "startWorkout": "உடற்பயிற்சி தொடங்கவும்",
+    "endWorkout": "உடற்பயிற்சி முடிக்கவும்"
+  },
+  
+  "workoutHistory": {
+    "title": "உடற்பயிற்சி வரலாறு",
+    "viewHistory": "வரலாறு பார்க்க",
+    "calories": "கலோரி",
+    "avgHR": "சராசரி இதய துடிப்பு",
+    "minutes": "நிமிடம்",
+    "empty": "இன்னும் உடற்பயிற்சி இல்லை"
+  },
+  
+  "workoutHistoryDialog": {
+    "title": "உடற்பயிற்சி வரலாறு",
+    "today": "இன்று",
+    "yesterday": "நேற்று",
+    "thisWeek": "இந்த வாரம்",
+    "calories": "கலோரி",
+    "avgHR": "சராசரி இதய துடிப்பு",
+    "minutes": "நிமிடம்",
+    "empty": "இன்னும் உடற்பயிற்சி இல்லை",
+    "zones": {
+      "light": "லேசான",
+      "moderate": "மிதமான",
+      "intense": "அதிக தீவிரம்"
+    }
+  },
+  
+  "fitnessDashboard": {
+    "title": "உடற்பயிற்சி",
+    "subtitle": "உங்கள் உடற்பயிற்சி மற்றும் செயல்பாட்டை கண்காணிக்கவும்",
+    "viewHistory": "வரலாறு பார்க்க"
+  },
+
+  
+  "register": {
+    "title": "கணக்கு உருவாக்கவும்",
+    "identifier": "மின்னஞ்சல் அல்லது தொலைபேசி",
+    "password": "கடவுச்சொல்",
+    "confirmPassword": "கடவுச்சொல் உறுதிப்படுத்தவும்",
+    "register": "பதிவு செய்யவும்",
+    "alreadyAccount": "ஏற்கனவே கணக்கு உள்ளதா?",
+    "login": "உள்நுழை"
+  },
+  
+  "login": {
+    "title": "உள்நுழை",
+    "identifier": "மின்னஞ்சல் அல்லது தொலைபேசி",
+    "password": "கடவுச்சொல்",
+    "login": "உள்நுழை",
+    "forgotPassword": "கடவுச்சொல் மறந்துவிட்டீர்களா?",
+    "createAccount": "கணக்கு உருவாக்கவும்",
+    "invalidCredentials": "தவறான உள்நுழைவு தகவல்"
+  },
+  
+  "forgotPassword": {
+    "title": "கடவுச்சொல் மறந்துவிட்டீர்களா",
+    "emailInstruction": "OTP பெற உங்கள் பதிவு செய்யப்பட்ட மின்னஞ்சலை உள்ளிடவும்",
+    "email": "மின்னஞ்சல்",
+    "sendOtp": "OTP அனுப்பு",
+    "backLogin": "உள்நுழைவிற்கு திரும்பு",
+
+    "verifyTitle": "OTP சரிபார்க்கவும்",
+    "verifyInstruction": "உங்கள் மின்னஞ்சலுக்கு அனுப்பிய OTP ஐ உள்ளிடவும்",
+    "enterOtp": "OTP உள்ளிடவும்",
+    "changeEmail": "மின்னஞ்சலை மாற்றவும்",
+    "resendOtp": "OTP மீண்டும் அனுப்பு",
+
+    "resetTitle": "கடவுச்சொல் மாற்றவும்",
+    "resetInstruction": "புதிய பாதுகாப்பான கடவுச்சொல் உருவாக்கவும்",
+    "newPassword": "புதிய கடவுச்சொல்",
+    "confirmPassword": "கடவுச்சொல் உறுதிப்படுத்தவும்",
+    "updatePassword": "கடவுச்சொல் புதுப்பிக்கவும்"
+  },
+  
+  "liveMonitor": {
+    "title": "நேரடி கண்காணிப்பு • பல சாதன முறை",
+    "ecg": "ECG லீட் II",
+    "heartRate": "இதய துடிப்பு",
+    "spo2": "ஆக்சிஜன் அளவு",
+    "temperature": "உடல் வெப்பநிலை",
+    "stress": "மன அழுத்தம்",
+    "oxygen": "ஆக்சிஜன்",
+    "bloodPressure": "இரத்த அழுத்தம்"
+  },
+  
+  "heartRate": {
+    "title": "இதய துடிப்பு பகுப்பாய்வு",
+    "subtitle": "நேரடி கண்காணிப்பு மற்றும் வரலாற்று தரவு",
+    "loading": "ஏற்றுகிறது...",
+    "minimum": "குறைந்தது",
+    "average": "சராசரி",
+    "maximum": "அதிகபட்சம்",
+    "lastMeasurement": "கடைசி அளவீடு",
+    "chartTitle": "காலப்போக்கில் இதய துடிப்பு"
+  },
+  "heartChart": {
+    "normal": "சாதாரணம்",
+    "bradycardia": "மெதுவான இதய துடிப்பு",
+    "tachycardia": "வேகமான இதய துடிப்பு",
+    "elevated": "உயர்ந்த",
+
+    "aboveNormal": "இதய துடிப்பு சாதாரண வரம்பை மீறியுள்ளது",
+
+    "current": "தற்போது",
+
+    "min": "குறைந்தபட்சம்",
+    "avg": "சராசரி",
+    "max": "அதிகபட்சம்",
+
+    "bpm": "{value} bpm",
+
+    "minValue": "குறைந்தபட்சம்: {value} bpm",
+    "avgValue": "சராசரி: {value} bpm",
+    "maxValue": "அதிகபட்சம்: {value} bpm"
+  },
+  
+  "steps": {
+    "title": "செயல்பாட்டு கண்காணிப்பு",
+    "subtitle": "தினசரி படிகள் மற்றும் மணி நேர விநியோகம்",
+    "noData": "தரவு இல்லை",
+    "autoUpdate": "ஒவ்வொரு 30 விநாடிகளிலும் தானாக புதுப்பிக்கும்",
+    "refresh": "இப்போது புதுப்பிக்கவும்"
+  },
+
+  
+  "stepsChart": {
+    "weeklyTitle": "வாராந்திர படி விநியோகம்",
+    "hourlyTitle": "மணி நேர படி விநியோகம்",
+    "minuteTitle": "சமீபத்திய செயல்பாடு",
+
+    "weeklySubtitle": "கடந்த 7 நாட்களில் தினசரி படிகள்",
+    "hourlySubtitle": "நாள்படியாக ஒவ்வொரு மணிக்கும் படிகள்",
+    "minuteSubtitle": "சமீப நிமிடங்களில் பதிவு செய்யப்பட்ட படிகள்",
+
+    "avg": "சராசரி: {value} படிகள்/{unit}",
+    "peak": "உச்சம்: {time} ({value})",
+
+    "maxDay": "அதிகபட்சம்: {value} படிகள்/நாள்",
+    "maxHour": "அதிகபட்சம்: {value} படிகள்/மணி",
+    "maxMinute": "அதிகபட்சம்: {value} படிகள்/நிமிடம்",
+
+    "total": "மொத்தம்: {value} படிகள்",
+
+    "day": "நாள்",
+    "hour": "மணி"
+  },
+
+  
+  "stepsDial": {
+    "steps": "படிகள்",
+    "complete": "{value}% நிறைவு",
+    "dailyProgress": "தினசரி செயல்பாட்டு முன்னேற்றம்",
+    "progress": "முன்னேற்றம்",
+
+    "distance": "தூரம்",
+    "calories": "கலோரி",
+    "pace": "வேகம்",
+    "remaining": "மீதமுள்ளது",
+
+    "monitoringPeriod": "கண்காணிப்பு காலம்",
+
+    "goal": "தினசரி இலக்கு: {value} படிகள்",
+    "remainingGoal": "உங்கள் இலக்கை அடைய {value} மேலும் படிகள்"
+  },
+
+  
+  "spo2": {
+    "subtitle": "ஆக்ஸிஜன் செறிவு",
+
+    "lowest": "குறைந்தது",
+    "current": "தற்போது",
+    "highest": "அதிகபட்சம்",
+
+    "normal": "சாதாரணம்",
+    "low": "குறைவு",
+    "critical": "மிக ஆபத்து",
+
+    "noData": "தரவு இல்லை",
+
+    "chartHint": "டாட் = சராசரி SpO₂ · உயரம் = குறைந்த–அதிக வரம்பு"
+  },
+
+  
+  "spo2Chart": {
+    "collecting": "SpO₂ தரவு சேகரிக்கப்படுகிறது.",
+    "wearDevice": "போக்குகளை காண சில நிமிடங்கள் சாதனத்தை அணியுங்கள்.",
+
+    "current": "தற்போது",
+    "min": "குறைந்தது",
+    "max": "அதிகபட்சம்"
+  },
+
+  
+  "stress": {
+    "title": "மன அழுத்தம்",
+    "subtitle": "மன அழுத்த பகுப்பாய்வு",
+
+    "current": "தற்போது",
+    "min": "குறைந்தது",
+    "max": "அதிகபட்சம்",
+
+    "lastMeasurement": "கடைசி அளவீடு",
+    "noData": "தரவு இல்லை"
+  },
+
+  
+  "stressDonut": {
+    "zone": "மன அழுத்த நிலை",
+
+    "noData": "தரவு இல்லை",
+    "relax": "இளைப்பு",
+    "normal": "சாதாரணம்",
+    "moderate": "மிதமான",
+    "high": "அதிகம்"
+  },
+
+  
+  "stressChart": {
+    "noData": "தரவு இல்லை",
+    "relax": "இளைப்பு",
+    "normal": "சாதாரணம்",
+    "moderate": "மிதமான",
+    "high": "அதிகம்",
+    "avgStress": "சராசரி அழுத்தம்"
+  },
+
+  
+  "dashboard": {
+    "common": {
+      "lastMeasured": "கடைசி அளவீடு"
+    },
+    "heartRate": {
+      "title": "இதய துடிப்பு",
+      "currentRate": "தற்போதைய வீதி",
+      "normal": "சாதாரணம்",
+      "monitor": "கண்காணிக்க"
+    },
+    "steps": {
+      "title": "படிகள்",
+      "today": "இன்றைய செயல்பாடு",
+      "loading": "ஏற்றப்படுகிறது...",
+      "active": "செயலில்",
+      "moderate": "மிதமான"
+    },
+    "battery": {
+      "title": "மின்கலம்",
+      "level": "சாதன மின்கலம்",
+      "good": "நல்லது",
+      "low": "குறைவு"
+    },
+    "ecg": {
+      "title": "ECG",
+      "subtitle": "ஒற்றை-லீட் ECG (Lead I)",
+      "noRecord": "ECG பதிவு இல்லை"
+    },
+    "spo2": {
+      "title": "SpO₂",
+      "current": "தற்போதைய ஆக்சிஜன்"
+    },
+    "sleep": {
+      "title": "தூக்கம்",
+      "duration": "மொத்த தூக்க நேரம்",
+      "good": "நல்லது",
+      "moderate": "மிதமான",
+      "low": "குறைவு",
+      "noData": "தரவு இல்லை"
+    },
+    "bp": {
+      "title": "இரத்த அழுத்தம்",
+      "current": "தற்போதைய BP",
+      "pulse": "இதய துடிப்பு",
+      "noData": "தரவு இல்லை"
+    },
+    "glucose": {
+      "title": "இரத்த சர்க்கரை",
+      "last": "கடைசி வாசிப்பு"
+    },
+    "temperature": {
+      "title": "வெப்பநிலை",
+      "body": "உடல் வெப்பநிலை",
+      "noData": "தரவு இல்லை"
+    },
+    "stress": {
+      "title": "மன அழுத்தம்",
+      "level": "மன அழுத்த நிலை"
+    }
+  },
+
+
+
+  "ecg": {
+    "title": "ECG அலைவடிவம்",
+    "sampling": "மாதிரி வீதி",
+    "duration": "நீளம்",
+    "recordedAt": "பதிவு செய்யப்பட்ட நேரம்",
+    "playing": "ECG சிக்னல் இயக்கப்படுகிறது…",
+    "complete": "பிளேபேக் முடிந்தது",
+    "voltage": "மின்னழுத்தம் (mV)",
+    "time": "நேரம் (மில்லி விநாடிகள்)",
+    "replay": "ECG மீண்டும் இயக்கவும்"
+  },
+
+  
+  "ecgMonitor": {
+    "title": "இதய மின்னோட்ட கண்காணிப்பு",
+    "heartRate": "இதய துடிப்பு",
+    "prInterval": "PR இடைவெளி",
+    "qtInterval": "QT இடைவெளி",
+    "qrsDuration": "QRS காலம்",
+    "liveSignal": "நேரடி சிக்னல்"
+  },
+  
+  "ecgSessions": {
+    "title": "இதய மின்னோட்ட (ECG) அமர்வுகள்",
+    "duration": "நேரம்",
+    "samplingRate": "மாதிரி வீதம்",
+    "leadInfo": "Lead I • 25 mm/s • 10 mm/mV",
+    "viewWaveform": "அலைவடிவத்தை பார்க்க →"
+  }
+
+
+
+
+
+
+
+
+
+
+}

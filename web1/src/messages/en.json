@@ -1,0 +1,622 @@
+{
+  "navbar": {
+    "profile": "Profile",
+    "devices": "Devices",
+    "dataSharing": "Data Sharing",
+    "permissions": "Permissions",
+    "logout": "Logout",
+    "live": "LIVE",
+    "startLive": "Start Live",
+    "alerts": "Alerts",
+    "refresh": "Refresh data"
+  },
+  
+  "doctorAccess": {
+    "title": "Doctor Access",
+    "doctorId": "Doctor ID",
+    "recordId": "Record ID",
+    "changeAccess": "Change Access",
+    "removeAccess": "Remove Access",
+    "grantAccess": "Grant Access",
+    "deletePermanent": "Delete Permanently",
+    "changeAccessTitle": "Change Doctor Access",
+    "changeAccessText": "Change access for {name} from {current} → {next}?",
+    "revokeTitle": "Revoke Doctor Access",
+    "revokeText": "Are you sure you want to revoke access for {name}?",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "revoke": "Revoke"
+  },
+  "dashboardHeader": {
+  "systemTime": "System Time",
+  "latestMeasurement": "Latest Measurement",
+  "noActiveDoctors": "No active doctors",
+  "noData": "No data available"
+},
+ "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your account information",
+    "userId": "User ID",
+    "email": "Email",
+    "role": "Role",
+    "standardUser": "Standard User"
+  },
+  "permissions": {
+    "title": "Permissions",
+    "subtitle": "Control how the app collects and uses data",
+ 
+    "criticalAlerts": "Critical Alerts",
+    "backgroundMonitoring": "Background Monitoring",
+    "cloudSync": "Cloud Sync",
+    "analyticsUsage": "Analytics Usage",
+    "autoConnect": "Auto Connect Device",
+ 
+    "descCriticalAlerts": "Receive critical health alerts",
+    "descBackgroundMonitoring": "Allow background monitoring",
+    "descCloudSync": "Sync data to cloud server",
+    "descAnalyticsUsage": "Share anonymous usage data",
+    "descAutoConnect": "Automatically connect to wearable device"
+  },
+ 
+  "devices": {
+    "title": "Select your device",
+    "subtitle": "Choose a connected wearable to continue",
+    "add": "Add",
+    "addDevice": "Add Device",
+    "addNewDevice": "Add New Device",
+    "deviceName": "Device Name",
+    "wearableType": "Wearable Type",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "confirmDelete": "Confirm Delete",
+    "deleteMessage": "Are you sure you want to delete this device?",
+    "delete": "Delete",
+    "select": "Select",
+    "noDevices": "No devices found",
+    "noDevicesSubtitle": "Add your first wearable device to continue"
+  },
+  "telemetry": {
+    "comingSoon": "Telemetry UI coming soon"
+  },
+ 
+ 
+ 
+  "sleep": {
+  "title": "Sleep Monitoring",
+  "subtitle": "Sleep duration and sleep stage ratio",
+  "latestSleep": "Latest Sleep",
+  "noData": "No Data",
+  "loading": "Loading sleep data...",
+  "noSleepData": "No sleep data available",
+  "averageSleep": "Average sleep",
+  "efficiency": "Efficiency",
+  "schedule": "Sleep Schedule",
+  "good": "Good",
+  "moderate": "Moderate",
+  "low": "Low",
+   "sleepRatio": "Sleep Ratio",
+  "noRatioData": "No ratio data",
+  "noSleepSession": "No sleep session for today",
+ 
+   "total": "Total",
+  "deep": "Deep",
+  "light": "Light",
+  "rem": "REM",
+  "awake": "Awake"
+},
+ 
+"bp": {
+  "title": "Blood Pressure",
+  "subtitle": "Systolic / Diastolic analytics",
+  "lastMeasurement": "Last Measurement",
+  "pulse": "Pulse",
+  "noData": "No Data",
+ 
+  "normal": "Normal",
+  "low": "Low",
+  "elevated": "Elevated",
+  "stage1": "Stage 1",
+  "stage2": "Stage 2",
+ 
+  "normalAdvice": "Normal BP",
+  "lowAdvice": "Low BP",
+  "elevatedAdvice": "Slightly high",
+  "stage1Advice": "High BP",
+  "stage2Advice": "Very high BP",
+ 
+  "rangeIndicator": "BP Range Indicator",
+ 
+  "sys": "sys",
+  "bpm": "bpm"
+ 
+ 
+},
+ 
+"glucose": {
+  "title": "Glucose",
+  "subtitle": "Blood glucose analytics",
+  "noData": "No Data",
+  "low": "Low",
+  "normal": "Normal",
+  "high": "High",
+  "avg": "Avg",
+  "min": "Min",
+  "max": "Max",
+  "unit": "mg/dL"
+},
+ 
+"temperature": {
+  "title": "Body Temperature",
+  "subtitle": "Continuous monitoring",
+  "currentTemperature": "Current Temperature",
+  "temperature": "Temperature",
+  "status": "Status",
+  "high": "High",
+  "normal": "Normal",
+  "low": "Low",
+  "noData": "No Data"
+},
+
+
+
+
+
+
+
+
+
+
+  "alerts": {
+    "heartRateAlert": "Heart Rate Alert",
+    "batteryAlert": "Battery Alert",
+    "heartRateRecorded": "Heart rate recorded at {value} bpm",
+    "batteryDropped": "Battery level dropped to {value}%",
+    "acknowledge": "Acknowledge"
+  },
+  "exerciseMetric": {
+    "title": "Workout Activity",
+    "live": "LIVE",
+    "inactive": "INACTIVE",
+    "move": "Move",
+    "exercise": "Exercise",
+    "walking": "Walking",
+    "workouts": "workouts",
+    "totalDuration": "Total Duration"
+  },
+
+  
+  "activityDonut": {
+    "weeklyActivity": "Weekly {type} Activity",
+    "mins": "mins",
+    "completed": "completed",
+
+    "motivationStart": "Let’s get started 💪",
+    "motivationProgress": "Good progress, keep moving 🚶",
+    "motivationAlmost": "Almost there 🔥",
+    "motivationDone": "Excellent work 🏆"
+  },
+  "exerciseForm": {
+    "title": "Add Set (Weight & Reps)",
+    "exercise": "Exercise",
+    "reps": "Reps",
+    "weight": "Weight (kg)",
+    "saveSet": "Save Set",
+    "startWorkout": "Start a gym workout to add sets",
+    "success": "Set added successfully"
+  },
+  
+  "createExerciseForm": {
+    "exerciseName": "Exercise Name",
+    "muscleGroup": "Muscle Group",
+    "createExercise": "Create Exercise",
+
+    "muscles": {
+      "CHEST": "Chest",
+      "BACK": "Back",
+      "LEGS": "Legs",
+      "SHOULDERS": "Shoulders",
+      "BICEPS": "Biceps",
+      "TRICEPS": "Triceps",
+      "CORE": "Core",
+      "FULL_BODY": "Full Body"
+    }
+  },
+  "exerciseSlider": {
+    "title": "Created Exercises",
+    "firstUsed": "First used on",
+    "notUsed": "Not used yet",
+    "empty": "No exercises created yet"
+  },
+
+  
+  "liveWorkout": {
+    "steps": "Steps",
+    "today": "Today",
+    "heartRate": "Heart Rate",
+    "avgHR": "Avg HR",
+    "dailyGoal": "Daily Goal",
+    "setGoalSubtitle": "Set your fitness goal",
+    "completed": "completed",
+    "goalReached": "You have reached {percent}% of your goal today",
+    "save": "Save",
+    "setGoals": "Set Fitness Goals"
+  },
+  "todayProgress": {
+    "title": "Today's Activity",
+    "minutesActive": "minutes active",
+    "noActivity": "No activity",
+    "total": "Total",
+    "breakdownTitle": "Today Breakdown",
+    "noWorkout": "No workout today"
+  },
+  "weeklyStats": {
+    "title": "Weekly Summary",
+    "workouts": "Workouts",
+    "duration": "Duration",
+    "calories": "Calories",
+    "avgHR": "Avg HR"
+  },
+  
+  "fitnessWeekly": {
+    "title": "Fitness Activity",
+    "subtitle": "Weekly workout activity",
+    "noWorkouts": "No workouts",
+    "kcal": "kcal"
+  
+},
+
+  "workoutControls": {
+    "cardio": "Cardio",
+    "hiit": "HIIT",
+    "walk": "Walk",
+    "run": "Run",
+    "gym": "Gym",
+    "startWorkout": "Start Workout",
+    "endWorkout": "End Workout"
+  },
+  
+  "workoutHistory": {
+    "title": "Workout History",
+    "viewHistory": "View history",
+    "calories": "Calories",
+    "avgHR": "Avg HR",
+    "minutes": "min",
+    "empty": "No workouts yet"
+  },
+  
+  "workoutHistoryDialog": {
+    "title": "Workout History",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This Week",
+    "calories": "Calories",
+    "avgHR": "Avg HR",
+    "minutes": "min",
+    "empty": "No workouts yet",
+    "zones": {
+      "light": "Light",
+      "moderate": "Moderate",
+      "intense": "Intense"
+    }
+  },
+  
+  "fitnessDashboard": {
+    "title": "Fitness",
+    "subtitle": "Track your workouts and activity",
+    "viewHistory": "View history"
+  },
+
+  
+  "register": {
+    "title": "Create Account",
+    "identifier": "Email or Phone",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "register": "Register",
+    "alreadyAccount": "Already have an account?",
+    "login": "Login"
+  },
+  
+  "login": {
+    "title": "Login",
+    "identifier": "Email or Phone",
+    "password": "Password",
+    "login": "Login",
+    "forgotPassword": "Forgot Password?",
+    "createAccount": "Create an account",
+    "invalidCredentials": "Invalid credentials"
+  
+},
+
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "emailInstruction": "Enter your registered email to receive an OTP",
+    "email": "Email",
+    "sendOtp": "Send OTP",
+    "backLogin": "Back to Login",
+
+    "verifyTitle": "Verify OTP",
+    "verifyInstruction": "Enter the OTP sent to your email",
+    "enterOtp": "Enter OTP",
+    "changeEmail": "Change Email",
+    "resendOtp": "Resend OTP",
+
+    "resetTitle": "Reset Password",
+    "resetInstruction": "Create a new secure password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "updatePassword": "Update Password"
+  },
+
+  
+  "liveMonitor": {
+    "title": "Live Monitor • Multi Device Mode",
+    "ecg": "ECG Lead II",
+    "heartRate": "Heart Rate",
+    "spo2": "SpO₂",
+    "temperature": "Temperature",
+    "stress": "Stress",
+    "oxygen": "Oxygen",
+    "bloodPressure": "Blood Pressure"
+  },
+
+  
+  "heartRate": {
+    "title": "Heart Rate Analytics",
+    "subtitle": "Real-time monitoring and historical trends",
+    "loading": "Loading...",
+    "minimum": "Minimum",
+    "average": "Average",
+    "maximum": "Maximum",
+    "lastMeasurement": "Last Measurement",
+    "chartTitle": "Heart Rate Over Time"
+  },
+
+  "heartChart": {
+    "normal": "Normal",
+    "bradycardia": "Bradycardia",
+    "tachycardia": "Tachycardia",
+    "elevated": "Elevated",
+
+    "aboveNormal": "Heart rate above normal range",
+
+    "current": "Current",
+
+    "min": "Min",
+    "avg": "Avg",
+    "max": "Max",
+
+    "bpm": "{value} bpm",
+
+    "minValue": "Min: {value} bpm",
+    "avgValue": "Avg: {value} bpm",
+    "maxValue": "Max: {value} bpm",
+
+    "zoneNormal": "Normal heart rate zone",
+    "zoneBradycardia": "Low heart rate zone",
+    "zoneTachycardia": "High heart rate zone",
+
+    "tooltipDateShort": "{date}",
+    "tooltipDateLong": "{date}"
+  },
+
+  
+  "steps": {
+    "title": "Activity Monitoring",
+    "subtitle": "Daily steps and hourly distribution",
+    "noData": "No Data",
+    "autoUpdate": "Auto-updates every 30 seconds",
+    "refresh": "Refresh Now"
+  },
+ 
+  "stepsChart": {
+    "weeklyTitle": "Weekly Step Distribution",
+    "hourlyTitle": "Hourly Step Distribution",
+    "minuteTitle": "Recent Step Activity",
+
+    "weeklySubtitle": "Steps per day in the last 7 days",
+    "hourlySubtitle": "Steps per hour throughout the day",
+    "minuteSubtitle": "Steps recorded in recent minutes",
+
+    "avg": "Avg: {value} steps/{unit}",
+    "peak": "Peak: {time} ({value})",
+
+    "maxDay": "Max: {value} steps/day",
+    "maxHour": "Max: {value} steps/hr",
+    "maxMinute": "Max: {value} steps/min",
+
+    "total": "Total: {value} steps",
+
+    "day": "day",
+    "hour": "hr"
+  },
+
+  
+  "stepsDial": {
+    "steps": "Steps",
+    "complete": "{value}% Complete",
+    "dailyProgress": "Daily Activity Progress",
+    "progress": "Progress",
+
+    "distance": "Distance",
+    "calories": "Calories",
+    "pace": "Pace",
+    "remaining": "Remaining",
+
+    "monitoringPeriod": "Monitoring Period",
+
+    "goal": "Daily Goal: {value} steps",
+    "remainingGoal": "{value} more steps to reach your goal"
+  },
+  
+  "spo2": {
+    "subtitle": "Oxygen Saturation",
+
+    "lowest": "Lowest",
+    "current": "Current",
+    "highest": "Highest",
+
+    "normal": "Normal",
+    "low": "Low",
+    "critical": "Critical",
+
+    "noData": "No Data",
+
+    "chartHint": "Avg dot = average SpO₂ · Pill height = min–max range"
+  
+},
+  "spo2Chart": {
+    "collecting": "Collecting SpO₂ data.",
+    "wearDevice": "Wear the device for a few minutes to see trends.",
+
+    "current": "Current",
+    "min": "Min",
+    "max": "Max"
+  },
+
+  
+  "stress": {
+    "title": "Stress",
+    "subtitle": "Mental stress analytics",
+
+    "current": "Current",
+    "min": "Min",
+    "max": "Max",
+
+    "lastMeasurement": "Last Measurement",
+    "noData": "No Data"
+  },
+
+  
+  "stressDonut": {
+    "zone": "Stress zone",
+
+    "noData": "No Data",
+    "relax": "Relax",
+    "normal": "Normal",
+    "moderate": "Moderate",
+    "high": "High"
+  },
+
+  
+  "stressChart": {
+    "noData": "No Data",
+    "relax": "Relax",
+    "normal": "Normal",
+    "moderate": "Moderate",
+    "high": "High",
+    "avgStress": "Avg Stress"
+  },
+
+  
+  "dashboard": {
+    "common": {
+      "lastMeasured": "Last measured"
+    },
+
+    "heartRate": {
+      "title": "Heart Rate",
+      "currentRate": "Current Rate",
+      "normal": "Normal",
+      "monitor": "Monitor"
+    },
+
+    "steps": {
+      "title": "Steps",
+      "today": "Today's Activity",
+      "loading": "Loading...",
+      "active": "Active",
+      "moderate": "Moderate"
+    },
+
+    "battery": {
+      "title": "Battery",
+      "level": "Device Battery",
+      "good": "Good",
+      "low": "Low"
+    },
+
+    "ecg": {
+      "title": "ECG",
+      "subtitle": "Single-lead ECG (Lead I)",
+      "noRecord": "No ECG recorded"
+    },
+
+    "spo2": {
+      "title": "SpO₂",
+      "current": "Current Oxygen"
+    },
+
+    "sleep": {
+      "title": "Sleep",
+      "duration": "Total sleep duration",
+      "good": "Good",
+      "moderate": "Moderate",
+      "low": "Low",
+      "noData": "No data"
+    },
+
+    "bp": {
+      "title": "Blood Pressure",
+      "current": "Current BP",
+      "pulse": "Pulse",
+      "noData": "No data"
+    },
+
+    "glucose": {
+      "title": "Blood Glucose",
+      "last": "Last Reading"
+    },
+
+    "temperature": {
+      "title": "Temperature",
+      "body": "Body Temperature",
+      "noData": "No data"
+    },
+
+    "stress": {
+      "title": "Stress",
+      "level": "Stress Level"
+    }
+  },
+
+  
+  "ecg": {
+    "title": "ECG Waveform",
+    "sampling": "Sampling",
+    "duration": "Duration",
+    "recordedAt": "Recorded at",
+    "playing": "Playing ECG signal…",
+    "complete": "Playback complete",
+    "voltage": "Voltage (mV)",
+    "time": "Time (milliseconds)",
+    "replay": "Replay ECG"
+  },
+  
+  "ecgMonitor": {
+    "title": "Electrocardiogram Monitor",
+    "heartRate": "Heart Rate",
+    "prInterval": "PR Interval",
+    "qtInterval": "QT Interval",
+    "qrsDuration": "QRS Duration",
+    "liveSignal": "Live Signal"
+  },
+  
+  "ecgSessions": {
+    "title": "Electrocardiogram (ECG) Sessions",
+    "duration": "Duration",
+    "samplingRate": "Sampling Rate",
+    "leadInfo": "Lead I • 25 mm/s • 10 mm/mV",
+    "viewWaveform": "View Waveform →"
+  }
+
+
+
+
+
+}
+
+
+
+
+

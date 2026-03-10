@@ -1,0 +1,615 @@
+{
+  "navbar": {
+    "profile": "പ്രൊഫൈൽ",
+    "devices": "ഉപകരണങ്ങൾ",
+    "dataSharing": "ഡാറ്റ പങ്കിടൽ",
+    "permissions": "അനുമതികൾ",
+    "logout": "ലോഗ് ഔട്ട്",
+    "live": "ലൈവ്",
+    "startLive": "ലൈവ് ആരംഭിക്കുക",
+    "alerts": "അലർട്ടുകൾ",
+    "refresh": "റിഫ്രെഷ്"
+  },
+  
+  "doctorAccess": {
+    "title": "ഡോക്ടർ ആക്സസ്",
+    "doctorId": "ഡോക്ടർ ഐഡി",
+    "recordId": "റെക്കോർഡ് ഐഡി",
+    "changeAccess": "ആക്സസ് മാറ്റുക",
+    "removeAccess": "ആക്സസ് നീക്കുക",
+    "grantAccess": "ആക്സസ് നൽകുക",
+    "deletePermanent": "സ്ഥിരമായി ഇല്ലാതാക്കുക",
+    "changeAccessTitle": "ഡോക്ടർ ആക്സസ് മാറ്റുക",
+    "changeAccessText": "{name} ന്‍റെ ആക്സസ് {current} → {next} ആയി മാറ്റണോ?",
+    "revokeTitle": "ഡോക്ടർ ആക്സസ് റദ്ദാക്കുക",
+    "revokeText": "{name} ന്‍റെ ആക്സസ് റദ്ദാക്കാൻ നിങ്ങൾക്ക് ഉറപ്പാണോ?",
+    "cancel": "റദ്ദാക്കുക",
+    "confirm": "സ്ഥിരീകരിക്കുക",
+    "revoke": "റദ്ദാക്കുക"
+  },
+  "dashboardHeader": {
+  "systemTime": "സിസ്റ്റം സമയം",
+  "latestMeasurement": "പുതിയ അളവ്",
+  "noActiveDoctors": "സജീവ ഡോക്ടർമാർ ഇല്ല",
+  "noData": "ഡാറ്റ ലഭ്യമല്ല"
+},
+
+ "profile": {
+    "title": "എന്റെ പ്രൊഫൈൽ",
+    "subtitle": "നിങ്ങളുടെ അക്കൗണ്ട് വിവരങ്ങൾ നിയന്ത്രിക്കുക",
+    "userId": "ഉപയോക്തൃ ഐഡി",
+    "email": "ഇമെയിൽ",
+    "role": "പങ്ക്",
+    "standardUser": "സാധാരണ ഉപയോക്താവ്"
+  },
+  "permissions": {
+    "title": "അനുമതികൾ",
+    "subtitle": "ആപ്പ് ഡാറ്റ എങ്ങനെ ഉപയോഗിക്കുന്നു എന്ന് നിയന്ത്രിക്കുക",
+ 
+    "criticalAlerts": "പ്രധാന അലർട്ടുകൾ",
+    "backgroundMonitoring": "പശ്ചാത്തല നിരീക്ഷണം",
+    "cloudSync": "ക്ലൗഡ് സിങ്ക്",
+    "analyticsUsage": "അനലിറ്റിക്സ് ഉപയോഗം",
+    "autoConnect": "ഓട്ടോ കണക്റ്റ് ഉപകരണം",
+ 
+    "descCriticalAlerts": "പ്രധാന ആരോഗ്യ അലർട്ടുകൾ സ്വീകരിക്കുക",
+    "descBackgroundMonitoring": "പശ്ചാത്തല നിരീക്ഷണത്തിന് അനുമതി നൽകുക",
+    "descCloudSync": "ഡാറ്റ ക്ലൗഡ് സർവറിലേക്ക് സിങ്ക് ചെയ്യുക",
+    "descAnalyticsUsage": "അജ്ഞാത ഉപയോഗ ഡാറ്റ പങ്കിടുക",
+    "descAutoConnect": "വെയറബിൾ ഉപകരണവുമായി സ്വയം കണക്റ്റ് ചെയ്യുക"
+  },
+ 
+ 
+  "devices": {
+    "title": "നിങ്ങളുടെ ഉപകരണം തിരഞ്ഞെടുക്കുക",
+    "subtitle": "തുടരാൻ കണക്റ്റ് ചെയ്ത wearable തിരഞ്ഞെടുക്കുക",
+    "add": "ചേർക്കുക",
+    "addDevice": "ഉപകരണം ചേർക്കുക",
+    "addNewDevice": "പുതിയ ഉപകരണം ചേർക്കുക",
+    "deviceName": "ഉപകരണത്തിന്റെ പേര്",
+    "wearableType": "Wearable തരം",
+    "cancel": "റദ്ദാക്കുക",
+    "confirm": "സ്ഥിരീകരിക്കുക",
+    "confirmDelete": "നീക്കം സ്ഥിരീകരിക്കുക",
+    "deleteMessage": "ഈ ഉപകരണം നീക്കം ചെയ്യണോ?",
+    "delete": "നീക്കം ചെയ്യുക",
+    "select": "തിരഞ്ഞെടുക്കുക",
+    "noDevices": "ഉപകരണങ്ങൾ കണ്ടെത്തിയില്ല",
+    "noDevicesSubtitle": "തുടരാൻ നിങ്ങളുടെ ആദ്യ wearable ചേർക്കുക"
+  },
+  "telemetry": {
+    "comingSoon": "Telemetry UI ഉടൻ വരുന്നു"
+  },
+ 
+  "sleep": {
+  "title": "ഉറക്കം നിരീക്ഷണം",
+  "subtitle": "ഉറക്ക സമയംയും ഉറക്ക ഘട്ട അനുപാതവും",
+  "latestSleep": "പുതിയ ഉറക്കം",
+  "noData": "ഡാറ്റ ഇല്ല",
+  "loading": "ഉറക്ക ഡാറ്റ ലോഡ് ചെയ്യുന്നു...",
+  "noSleepData": "ഉറക്ക ഡാറ്റ ലഭ്യമല്ല",
+  "averageSleep": "ശരാശരി ഉറക്കം",
+  "efficiency": "കാര്യക്ഷമത",
+  "schedule": "ഉറക്ക ഷെഡ്യൂൾ",
+  "good": "നല്ലത്",
+  "moderate": "മിതമായ",
+  "low": "കുറവ്",
+ 
+ 
+ 
+  "sleepRatio": "ഉറക്ക അനുപാതം",
+  "noRatioData": "അനുപാത ഡാറ്റ ഇല്ല",
+  "noSleepSession": "ഇന്ന് ഉറക്ക സെഷൻ ഇല്ല",
+ 
+  "total": "ആകെ",
+  "deep": "ആഴമുള്ള ഉറക്കം",
+  "light": "ലഘു ഉറക്കം",
+  "rem": "REM ഉറക്കം",
+  "awake": "ജാഗരണം"
+},
+ 
+"bp": {
+  "title": "രക്തസമ്മർദ്ദം",
+  "subtitle": "സിസ്റ്റോളിക് / ഡയാസ്റ്റോളിക് വിശകലനം",
+  "lastMeasurement": "അവസാന അളവ്",
+  "pulse": "നാടി",
+  "noData": "ഡാറ്റ ഇല്ല",
+ 
+  "normal": "സാധാരണ",
+  "low": "കുറവ്",
+  "elevated": "ഉയരം",
+  "stage1": "സ്റ്റേജ് 1",
+  "stage2": "സ്റ്റേജ് 2",
+ 
+  "normalAdvice": "സാധാരണ BP",
+  "lowAdvice": "കുറഞ്ഞ BP",
+  "elevatedAdvice": "കുറച്ച് ഉയർന്നത്",
+  "stage1Advice": "ഉയർന്ന BP",
+  "stage2Advice": "വളരെ ഉയർന്ന BP",
+ 
+  "rangeIndicator": "BP പരിധി സൂചിക",
+ 
+  "sys": "sys",
+  "bpm": "bpm"
+},
+ 
+"glucose": {
+  "title": "ഗ്ലൂക്കോസ്",
+  "subtitle": "രക്തത്തിലെ പഞ്ചസാര വിശകലനം",
+  "noData": "ഡാറ്റ ഇല്ല",
+  "low": "കുറവ്",
+  "normal": "സാധാരണ",
+  "high": "കൂടുതൽ",
+  "avg": "ശരാശരി",
+  "min": "കുറഞ്ഞത്",
+  "max": "കൂടിയത്",
+  "unit": "mg/dL"
+},
+ 
+"temperature": {
+  "title": "ശരീര താപനില",
+  "subtitle": "തുടർച്ചയായ നിരീക്ഷണം",
+  "currentTemperature": "നിലവിലെ താപനില",
+  "temperature": "താപനില",
+  "status": "സ്ഥിതി",
+  "high": "ഉയർന്നത്",
+  "normal": "സാധാരണ",
+  "low": "കുറവ്",
+  "noData": "ഡാറ്റ ഇല്ല"
+},
+ 
+ 
+ 
+
+
+  "alerts": {
+    "heartRateAlert": "ഹൃദയമിടിപ്പ് അലർട്ട്",
+    "batteryAlert": "ബാറ്ററി അലർട്ട്",
+    "heartRateRecorded": "ഹൃദയമിടിപ്പ് {value} bpm ആയി രേഖപ്പെടുത്തി",
+    "batteryDropped": "ബാറ്ററി നില {value}% ആയി കുറഞ്ഞു",
+    "acknowledge": "സ്ഥിരീകരിക്കുക"
+  },
+   "exerciseMetric": {
+    "title": "വർകൗട്ട് പ്രവർത്തനം",
+    "live": "ലൈവ്",
+    "inactive": "നിഷ്ക്രിയം",
+    "move": "ചലനം",
+    "exercise": "വ്യായാമം",
+    "walking": "നടത്തം",
+    "workouts": "വർകൗട്ടുകൾ",
+    "totalDuration": "മൊത്തം സമയം"
+  
+},
+
+  "activityDonut": {
+    "weeklyActivity": "ആഴ്ചയിലെ {type} പ്രവർത്തനം",
+    "mins": "മിനിറ്റ്",
+    "completed": "പൂർത്തിയായി",
+
+    "motivationStart": "ആരംഭിക്കാം 💪",
+    "motivationProgress": "നല്ല പുരോഗതി, തുടരൂ 🚶",
+    "motivationAlmost": "കുറച്ച് മാത്രം ബാക്കി 🔥",
+    "motivationDone": "അതിര്‍ത്തി ജോലി 🏆"
+  },
+  
+  "exerciseForm": {
+    "title": "സെറ്റ് ചേർക്കുക (ഭാരം & റെപ്സ്)",
+    "exercise": "വ്യായാമം",
+    "reps": "റെപ്സ്",
+    "weight": "ഭാരം (കിലോ)",
+    "saveSet": "സെറ്റ് സംരക്ഷിക്കുക",
+    "startWorkout": "സെറ്റുകൾ ചേർക്കാൻ ജിം വർകൗട്ട് ആരംഭിക്കുക",
+    "success": "സെറ്റ് വിജയകരമായി ചേർത്തു"
+  
+},
+
+
+  "createExerciseForm": {
+    "exerciseName": "വ്യായാമത്തിന്റെ പേര്",
+    "muscleGroup": "മസിൽ ഗ്രൂപ്പ്",
+    "createExercise": "വ്യായാമം സൃഷ്ടിക്കുക",
+
+    "muscles": {
+      "CHEST": "ചെസ്റ്റ്",
+      "BACK": "ബാക്ക്",
+      "LEGS": "കാലുകൾ",
+      "SHOULDERS": "തോൾ",
+      "BICEPS": "ബൈസെപ്സ്",
+      "TRICEPS": "ട്രൈസെപ്സ്",
+      "CORE": "കോർ",
+      "FULL_BODY": "മുഴുവൻ ശരീരം"
+    }
+  },
+  
+  "exerciseSlider": {
+    "title": "സൃഷ്ടിച്ച വ്യായാമങ്ങൾ",
+    "firstUsed": "ആദ്യം ഉപയോഗിച്ചത്",
+    "notUsed": "ഇതുവരെ ഉപയോഗിച്ചിട്ടില്ല",
+    "empty": "ഇതുവരെ വ്യായാമങ്ങൾ സൃഷ്ടിച്ചിട്ടില്ല"
+  },
+
+  
+  "liveWorkout": {
+    "steps": "പടികൾ",
+    "today": "ഇന്ന്",
+    "heartRate": "ഹൃദയമിടിപ്പ്",
+    "avgHR": "ശരാശരി HR",
+    "dailyGoal": "ദൈനംദിന ലക്ഷ്യം",
+    "setGoalSubtitle": "നിങ്ങളുടെ ഫിറ്റ്നസ് ലക്ഷ്യം സജ്ജമാക്കുക",
+    "completed": "പൂർത്തിയായി",
+    "goalReached": "ഇന്ന് നിങ്ങൾ നിങ്ങളുടെ ലക്ഷ്യത്തിന്റെ {percent}% എത്തി",
+    "save": "സേവ് ചെയ്യുക",
+    "setGoals": "ഫിറ്റ്നസ് ലക്ഷ്യങ്ങൾ സജ്ജമാക്കുക"
+  },
+  
+  "todayProgress": {
+    "title": "ഇന്നത്തെ പ്രവർത്തനം",
+    "minutesActive": "മിനിറ്റ് സജീവം",
+    "noActivity": "പ്രവർത്തനം ഇല്ല",
+    "total": "ആകെ",
+    "breakdownTitle": "ഇന്നത്തെ വിശദാംശങ്ങൾ",
+    "noWorkout": "ഇന്ന് വർകൗട്ട് ഇല്ല"
+  },
+  
+  "weeklyStats": {
+    "title": "ആഴ്ചയിലെ സംഗ്രഹം",
+    "workouts": "വർകൗട്ടുകൾ",
+    "duration": "ദൈർഘ്യം",
+    "calories": "ക്യാലറികൾ",
+    "avgHR": "ശരാശരി HR"
+  },
+  
+  "fitnessWeekly": {
+    "title": "ഫിറ്റ്നസ് പ്രവർത്തനം",
+    "subtitle": "ആഴ്ചയിലെ വർകൗട്ട് പ്രവർത്തനം",
+    "noWorkouts": "വർകൗട്ട് ഇല്ല",
+    "kcal": "ക്യാലറി"
+  },
+  
+  "workoutControls": {
+    "cardio": "കാർഡിയോ",
+    "hiit": "HIIT",
+    "walk": "നടത്തം",
+    "run": "ഓട്ടം",
+    "gym": "ജിം",
+    "startWorkout": "വർകൗട്ട് ആരംഭിക്കുക",
+    "endWorkout": "വർകൗട്ട് അവസാനിപ്പിക്കുക"
+  },
+  
+  "workoutHistory": {
+    "title": "വർകൗട്ട് ചരിത്രം",
+    "viewHistory": "ചരിത്രം കാണുക",
+    "calories": "ക്യാലറി",
+    "avgHR": "ശരാശരി ഹൃദയമിടിപ്പ്",
+    "minutes": "മിനിറ്റ്",
+    "empty": "ഇതുവരെ വർകൗട്ട് ഇല്ല"
+  
+},
+
+  "workoutHistoryDialog": {
+    "title": "വർകൗട്ട് ചരിത്രം",
+    "today": "ഇന്ന്",
+    "yesterday": "ഇന്നലെ",
+    "thisWeek": "ഈ ആഴ്ച",
+    "calories": "ക്യാലറി",
+    "avgHR": "ശരാശരി ഹൃദയമിടിപ്പ്",
+    "minutes": "മിനിറ്റ്",
+    "empty": "ഇതുവരെ വർകൗട്ട് ഇല്ല",
+    "zones": {
+      "light": "ലഘു",
+      "moderate": "മിതമായ",
+      "intense": "തീവ്രം"
+    }
+  },
+  
+  "fitnessDashboard": {
+    "title": "ഫിറ്റ്നസ്",
+    "subtitle": "നിങ്ങളുടെ വർകൗട്ടുകളും പ്രവർത്തനങ്ങളും ട്രാക്ക് ചെയ്യുക",
+    "viewHistory": "ചരിത്രം കാണുക"
+  },
+  
+  "register": {
+    "title": "അക്കൗണ്ട് സൃഷ്ടിക്കുക",
+    "identifier": "ഇമെയിൽ അല്ലെങ്കിൽ ഫോൺ",
+    "password": "പാസ്‌വേഡ്",
+    "confirmPassword": "പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക",
+    "register": "രജിസ്റ്റർ ചെയ്യുക",
+    "alreadyAccount": "ഇതിനകം അക്കൗണ്ട് ഉണ്ടോ?",
+    "login": "ലോഗിൻ"
+  },
+  
+  "login": {
+    "title": "ലോഗിൻ",
+    "identifier": "ഇമെയിൽ അല്ലെങ്കിൽ ഫോൺ",
+    "password": "പാസ്‌വേഡ്",
+    "login": "ലോഗിൻ",
+    "forgotPassword": "പാസ്‌വേഡ് മറന്നോ?",
+    "createAccount": "അക്കൗണ്ട് സൃഷ്ടിക്കുക",
+    "invalidCredentials": "തെറ്റായ ലോഗിൻ വിവരങ്ങൾ"
+  },
+  
+  "forgotPassword": {
+    "title": "പാസ്‌വേഡ് മറന്നോ",
+    "emailInstruction": "OTP ലഭിക്കാൻ നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത ഇമെയിൽ നൽകുക",
+    "email": "ഇമെയിൽ",
+    "sendOtp": "OTP അയയ്ക്കുക",
+    "backLogin": "ലോഗിനിലേക്ക് മടങ്ങുക",
+
+    "verifyTitle": "OTP സ്ഥിരീകരിക്കുക",
+    "verifyInstruction": "നിങ്ങളുടെ ഇമെയിലിലേക്ക് അയച്ച OTP നൽകുക",
+    "enterOtp": "OTP നൽകുക",
+    "changeEmail": "ഇമെയിൽ മാറ്റുക",
+    "resendOtp": "OTP വീണ്ടും അയയ്ക്കുക",
+
+    "resetTitle": "പാസ്‌വേഡ് റീസെറ്റ് ചെയ്യുക",
+    "resetInstruction": "പുതിയ സുരക്ഷിത പാസ്‌വേഡ് സൃഷ്ടിക്കുക",
+    "newPassword": "പുതിയ പാസ്‌വേഡ്",
+    "confirmPassword": "പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക",
+    "updatePassword": "പാസ്‌വേഡ് അപ്‌ഡേറ്റ് ചെയ്യുക"
+  },
+  
+  "liveMonitor": {
+    "title": "ലൈവ് മോണിറ്റർ • മൾട്ടി ഡിവൈസ് മോഡ്",
+    "ecg": "ഇസിജി ലീഡ് II",
+    "heartRate": "ഹൃദയമിടിപ്പ്",
+    "spo2": "ഓക്സിജൻ നില (SpO₂)",
+    "oxygen": "ഓക്സിജൻ",
+    "temperature": "ശരീര താപനില",
+    "stress": "സമ്മർദ്ദം",
+    "bloodPressure": "രക്തസമ്മർദ്ദം"
+  },
+  
+  "heartRate": {
+    "title": "ഹൃദയമിടിപ്പ് വിശകലനം",
+    "subtitle": "റിയൽ-ടൈം നിരീക്ഷണവും ചരിത്ര ഡാറ്റയും",
+    "loading": "ലോഡ് ചെയ്യുന്നു...",
+    "minimum": "കുറഞ്ഞത്",
+    "average": "ശരാശരി",
+    "maximum": "പരമാവധി",
+    "lastMeasurement": "അവസാന അളവ്",
+    "chartTitle": "കാലക്രമത്തിൽ ഹൃദയമിടിപ്പ്"
+  },
+  
+
+  "heartChart": {
+    "normal": "सामान्य",
+    "bradycardia": "धीमी हृदय गति",
+    "tachycardia": "तेज हृदय गति",
+    "elevated": "उच्च",
+
+    "aboveNormal": "हृदय गति सामान्य सीमा से अधिक है",
+
+    "current": "वर्तमान",
+
+    "min": "न्यूनतम",
+    "avg": "औसत",
+    "max": "अधिकतम",
+
+    "bpm": "{value} bpm",
+
+    "minValue": "न्यूनतम: {value} bpm",
+    "avgValue": "औसत: {value} bpm",
+    "maxValue": "अधिकतम: {value} bpm"
+  },
+  
+  "steps": {
+    "title": "പ്രവർത്തന നിരീക്ഷണം",
+    "subtitle": "ദൈനംദിന ചുവടുകളും മണിക്കൂറുകൾ പ്രകാരമുള്ള വിതരണം",
+    "noData": "ഡാറ്റ ഇല്ല",
+    "autoUpdate": "ഓരോ 30 സെക്കൻഡിലും സ്വയം പുതുക്കുന്നു",
+    "refresh": "ഇപ്പോൾ പുതുക്കുക"
+  },
+
+  
+  "stepsChart": {
+    "weeklyTitle": "ആഴ്ചയിലെ ചുവടുകളുടെ വിതരണം",
+    "hourlyTitle": "മണിക്കൂറിൽ ചുവടുകളുടെ വിതരണം",
+    "minuteTitle": "സമീപകാല പ്രവർത്തനം",
+
+    "weeklySubtitle": "കഴിഞ്ഞ 7 ദിവസങ്ങളിൽ ഓരോ ദിവസത്തെയും ചുവടുകൾ",
+    "hourlySubtitle": "ദിവസം മുഴുവൻ ഓരോ മണിക്കൂറിലുമുള്ള ചുവടുകൾ",
+    "minuteSubtitle": "സമീപകാല മിനിറ്റുകളിൽ രേഖപ്പെടുത്തിയ ചുവടുകൾ",
+
+    "avg": "ശരാശരി: {value} ചുവടുകൾ/{unit}",
+    "peak": "പീക്ക്: {time} ({value})",
+
+    "maxDay": "പരമാവധി: {value} ചുവടുകൾ/ദിവസം",
+    "maxHour": "പരമാവധി: {value} ചുവടുകൾ/മണിക്കൂർ",
+    "maxMinute": "പരമാവധി: {value} ചുവടുകൾ/മിനിറ്റ്",
+
+    "total": "ആകെ: {value} ചുവടുകൾ",
+
+    "day": "ദിവസം",
+    "hour": "മണിക്കൂർ"
+  },
+
+  
+  "stepsDial": {
+    "steps": "ചുവടുകൾ",
+    "complete": "{value}% പൂർത്തിയായി",
+    "dailyProgress": "ദൈനംദിന പ്രവർത്തന പുരോഗതി",
+    "progress": "പുരോഗതി",
+
+    "distance": "ദൂരം",
+    "calories": "ക്യാലറി",
+    "pace": "വേഗം",
+    "remaining": "ബാക്കി",
+
+    "monitoringPeriod": "നിരീക്ഷണ സമയം",
+
+    "goal": "ദൈനംദിന ലക്ഷ്യം: {value} ചുവടുകൾ",
+    "remainingGoal": "ലക്ഷ്യം നേടാൻ {value} കൂടുതൽ ചുവടുകൾ"
+  },
+
+  
+  "spo2": {
+    "subtitle": "ഓക്സിജൻ സാച്ചുറേഷൻ",
+
+    "lowest": "കുറഞ്ഞത്",
+    "current": "നിലവിൽ",
+    "highest": "ഏറ്റവും ഉയരം",
+
+    "normal": "സാധാരണം",
+    "low": "കുറവ്",
+    "critical": "ഗുരുതരം",
+
+    "noData": "ഡാറ്റ ഇല്ല",
+
+    "chartHint": "ഡോട്ട് = ശരാശരി SpO₂ · ഉയരം = കുറഞ്ഞ–ഉയർന്ന പരിധി"
+  },
+
+  
+  "spo2Chart": {
+    "collecting": "SpO₂ ഡാറ്റ ശേഖരിക്കുന്നു.",
+    "wearDevice": "ട്രെൻഡുകൾ കാണാൻ ചില മിനിറ്റുകൾ ഉപകരണം ധരിക്കുക.",
+
+    "current": "നിലവിൽ",
+    "min": "കുറഞ്ഞത്",
+    "max": "ഏറ്റവും കൂടുതലുള്ളത്"
+  },
+
+  
+  "stress": {
+    "title": "സ്ട്രെസ്",
+    "subtitle": "മാനസിക സമ്മർദ്ദ വിശകലനം",
+
+    "current": "നിലവിൽ",
+    "min": "കുറഞ്ഞത്",
+    "max": "ഏറ്റവും കൂടുതലുള്ളത്",
+
+    "lastMeasurement": "അവസാന അളവ്",
+    "noData": "ഡാറ്റ ഇല്ല"
+  },
+
+  
+  "stressDonut": {
+    "zone": "സ്ട്രെസ് നില",
+
+    "noData": "ഡാറ്റ ഇല്ല",
+    "relax": "വിശ്രമം",
+    "normal": "സാധാരണം",
+    "moderate": "മധ്യമം",
+    "high": "ഉയരം"
+  },
+
+  
+  "stressChart": {
+    "noData": "ഡാറ്റ ഇല്ല",
+    "relax": "വിശ്രമം",
+    "normal": "സാധാരണം",
+    "moderate": "മധ്യമം",
+    "high": "ഉയരം",
+    "avgStress": "ശരാശരി സമ്മർദ്ദം"
+  },
+
+  
+  "dashboard": {
+    "common": {
+      "lastMeasured": "അവസാന അളവ്"
+    },
+    "heartRate": {
+      "title": "ഹൃദയമിടിപ്പ്",
+      "currentRate": "നിലവിലെ നിരക്ക്",
+      "normal": "സാധാരണം",
+      "monitor": "നിരീക്ഷിക്കുക"
+    },
+    "steps": {
+      "title": "ചുവടുകൾ",
+      "today": "ഇന്നത്തെ പ്രവർത്തനം",
+      "loading": "ലോഡിംഗ്...",
+      "active": "സജീവം",
+      "moderate": "മധ്യമം"
+    },
+    "battery": {
+      "title": "ബാറ്ററി",
+      "level": "ഉപകരണ ബാറ്ററി",
+      "good": "നല്ലത്",
+      "low": "കുറവ്"
+    },
+    "ecg": {
+      "title": "ECG",
+      "subtitle": "സിംഗിൾ-ലീഡ് ECG (Lead I)",
+      "noRecord": "ECG രേഖകളില്ല"
+    },
+    "spo2": {
+      "title": "SpO₂",
+      "current": "നിലവിലെ ഓക്സിജൻ"
+    },
+    "sleep": {
+      "title": "ഉറക്കം",
+      "duration": "മൊത്തം ഉറക്ക സമയം",
+      "good": "നല്ലത്",
+      "moderate": "മധ്യമം",
+      "low": "കുറവ്",
+      "noData": "ഡാറ്റ ഇല്ല"
+    },
+    "bp": {
+      "title": "രക്തസമ്മർദ്ദം",
+      "current": "നിലവിലെ BP",
+      "pulse": "നാടി",
+      "noData": "ഡാറ്റ ഇല്ല"
+    },
+    "glucose": {
+      "title": "രക്ത ഗ്ലൂക്കോസ്",
+      "last": "അവസാന വായനം"
+    },
+    "temperature": {
+      "title": "താപനില",
+      "body": "ശരീര താപനില",
+      "noData": "ഡാറ്റ ഇല്ല"
+    },
+    "stress": {
+      "title": "സമ്മർദ്ദം",
+      "level": "സമ്മർദ്ദ നില"
+    }
+  },
+
+  
+  "ecg": {
+    "title": "ECG തരംഗരൂപം",
+    "sampling": "സാമ്പിളിംഗ്",
+    "duration": "ദൈർഘ്യം",
+    "recordedAt": "റെക്കോർഡ് ചെയ്തത്",
+    "playing": "ECG സിഗ്നൽ പ്ലേ ചെയ്യുന്നു…",
+    "complete": "പ്ലേബാക്ക് പൂർത്തിയായി",
+    "voltage": "വോൾട്ടേജ് (mV)",
+    "time": "സമയം (മില്ലിസെക്കൻഡ്)",
+    "replay": "ECG വീണ്ടും പ്ലേ ചെയ്യുക"
+  },
+  
+  "ecgMonitor": {
+    "title": "ECG മോണിറ്റർ",
+    "heartRate": "ഹൃദയമിടിപ്പ്",
+    "prInterval": "PR ഇടവേള",
+    "qtInterval": "QT ഇടവേള",
+    "qrsDuration": "QRS ദൈർഘ്യം",
+    "liveSignal": "ലൈവ് സിഗ്നൽ"
+  },
+  
+  "ecgSessions": {
+    "title": "ECG സെഷനുകൾ",
+    "duration": "ദൈർഘ്യം",
+    "samplingRate": "സാമ്പ്ലിംഗ് നിരക്ക്",
+    "leadInfo": "Lead I • 25 mm/s • 10 mm/mV",
+    "viewWaveform": "വേവ്ഫോം കാണുക →"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

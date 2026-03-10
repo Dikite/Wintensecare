@@ -1,0 +1,587 @@
+{
+  "navbar": {
+    "profile": "ಪ್ರೊಫೈಲ್",
+    "devices": "ಸಾಧನಗಳು",
+    "dataSharing": "ಡೇಟಾ ಹಂಚಿಕೆ",
+    "permissions": "ಅನುಮತಿಗಳು",
+    "logout": "ಲಾಗ್ ಔಟ್",
+    "live": "ಲೈವ್",
+    "startLive": "ಲೈವ್ ಪ್ರಾರಂಭಿಸಿ",
+    "alerts": "ಎಚ್ಚರಿಕೆಗಳು",
+    "refresh": "ರಿಫ್ರೆಶ್"
+  }
+,
+  "doctorAccess": {
+    "title": "ಡಾಕ್ಟರ್ ಪ್ರವೇಶ",
+    "doctorId": "ಡಾಕ್ಟರ್ ಐಡಿ",
+    "recordId": "ದಾಖಲೆ ಐಡಿ",
+    "changeAccess": "ಪ್ರವೇಶ ಬದಲಾಯಿಸಿ",
+    "removeAccess": "ಪ್ರವೇಶ ತೆಗೆದುಹಾಕಿ",
+    "grantAccess": "ಪ್ರವೇಶ ನೀಡಿ",
+    "deletePermanent": "ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಿ",
+    "changeAccessTitle": "ಡಾಕ್ಟರ್ ಪ್ರವೇಶ ಬದಲಾಯಿಸಿ",
+    "changeAccessText": "{name}ಗಾಗಿ ಪ್ರವೇಶವನ್ನು {current} → {next} ಗೆ ಬದಲಾಯಿಸಲು ಬಯಸುವಿರಾ?",
+    "revokeTitle": "ಡಾಕ್ಟರ್ ಪ್ರವೇಶ ರದ್ದುಮಾಡಿ",
+    "revokeText": "{name} ಅವರ ಪ್ರವೇಶವನ್ನು ರದ್ದುಮಾಡಲು ಖಚಿತವೇ?",
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "confirm": "ದೃಢೀಕರಿಸಿ",
+    "revoke": "ರದ್ದುಮಾಡಿ"
+  },
+  "dashboardHeader": {
+  "systemTime": "ಸಿಸ್ಟಮ್ ಸಮಯ",
+  "latestMeasurement": "ಇತ್ತೀಚಿನ ಮಾಪನ",
+  "noActiveDoctors": "ಸಕ್ರಿಯ ವೈದ್ಯರು ಇಲ್ಲ",
+  "noData": "ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ"
+},
+
+ "profile": {
+    "title": "ನನ್ನ ಪ್ರೊಫೈಲ್",
+    "subtitle": "ನಿಮ್ಮ ಖಾತೆ ಮಾಹಿತಿಯನ್ನು ನಿರ್ವಹಿಸಿ",
+    "userId": "ಬಳಕೆದಾರ ಐಡಿ",
+    "email": "ಇಮೇಲ್",
+    "role": "ಪಾತ್ರ",
+    "standardUser": "ಸಾಮಾನ್ಯ ಬಳಕೆದಾರ"
+  },
+  "permissions": {
+    "title": "ಅನುಮತಿಗಳು",
+    "subtitle": "ಆಪ್ ಡೇಟಾವನ್ನು ಹೇಗೆ ಬಳಸುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸಿ",
+ 
+    "criticalAlerts": "ಮುಖ್ಯ ಎಚ್ಚರಿಕೆಗಳು",
+    "backgroundMonitoring": "ಹಿನ್ನೆಲೆ ಮಾನಿಟರಿಂಗ್",
+    "cloudSync": "ಕ್ಲೌಡ್ ಸಿಂಕ್",
+    "analyticsUsage": "ಅನಾಲಿಟಿಕ್ಸ್ ಬಳಕೆ",
+    "autoConnect": "ಸ್ವಯಂ ಸಂಪರ್ಕ ಸಾಧನ",
+ 
+    "descCriticalAlerts": "ಮುಖ್ಯ ಆರೋಗ್ಯ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಸ್ವೀಕರಿಸಿ",
+    "descBackgroundMonitoring": "ಹಿನ್ನೆಲೆ ಮಾನಿಟರಿಂಗ್‌ಗೆ ಅನುಮತಿ ನೀಡಿ",
+    "descCloudSync": "ಡೇಟಾವನ್ನು ಕ್ಲೌಡ್ ಸರ್ವರ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಿ",
+    "descAnalyticsUsage": "ಅಜ್ಞಾತ ಬಳಕೆ ಡೇಟಾವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ",
+    "descAutoConnect": "ವೇರಬಲ್ ಸಾಧನಕ್ಕೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಂಪರ್ಕಿಸಿ"
+  },
+ 
+ 
+  "devices": {
+    "title": "ನಿಮ್ಮ ಸಾಧನವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "subtitle": "ಮುಂದುವರಿಸಲು ಸಂಪರ್ಕಿತ wearable ಆಯ್ಕೆಮಾಡಿ",
+    "add": "ಸೇರಿಸಿ",
+    "addDevice": "ಸಾಧನ ಸೇರಿಸಿ",
+    "addNewDevice": "ಹೊಸ ಸಾಧನ ಸೇರಿಸಿ",
+    "deviceName": "ಸಾಧನ ಹೆಸರು",
+    "wearableType": "Wearable ಪ್ರಕಾರ",
+    "cancel": "ರದ್ದು",
+    "confirm": "ದೃಢೀಕರಿಸಿ",
+    "confirmDelete": "ಅಳಿಸುವುದನ್ನು ದೃಢೀಕರಿಸಿ",
+    "deleteMessage": "ಈ ಸಾಧನವನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವೇ?",
+    "delete": "ಅಳಿಸಿ",
+    "select": "ಆಯ್ಕೆಮಾಡಿ",
+    "noDevices": "ಯಾವುದೇ ಸಾಧನಗಳು ಇಲ್ಲ",
+    "noDevicesSubtitle": "ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಮೊದಲ wearable ಸೇರಿಸಿ"
+  },
+  "telemetry": {
+    "comingSoon": "Telemetry UI ಶೀಘ್ರದಲ್ಲೇ ಬರುತ್ತದೆ"
+  },
+ 
+  "sleep": {
+  "title": "ನಿದ್ರೆ ಮೇಲ್ವಿಚಾರಣೆ",
+  "subtitle": "ನಿದ್ರೆ ಅವಧಿ ಮತ್ತು ನಿದ್ರೆ ಹಂತ ಅನುಪಾತ",
+  "latestSleep": "ಇತ್ತೀಚಿನ ನಿದ್ರೆ",
+  "noData": "ಡೇಟಾ ಇಲ್ಲ",
+  "loading": "ನಿದ್ರೆ ಡೇಟಾ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "noSleepData": "ನಿದ್ರೆ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ",
+  "averageSleep": "ಸರಾಸರಿ ನಿದ್ರೆ",
+  "efficiency": "ಕಾರ್ಯಕ್ಷಮತೆ",
+  "schedule": "ನಿದ್ರೆ ವೇಳಾಪಟ್ಟಿ",
+  "good": "ಉತ್ತಮ",
+  "moderate": "ಮಧ್ಯಮ",
+  "low": "ಕಡಿಮೆ",
+ 
+  "sleepRatio": "ನಿದ್ರೆ ಅನುಪಾತ",
+  "noRatioData": "ಅನುಪಾತ ಡೇಟಾ ಇಲ್ಲ",
+  "noSleepSession": "ಇಂದು ನಿದ್ರೆ ಸೆಷನ್ ಇಲ್ಲ",
+ 
+  "total": "ಒಟ್ಟು",
+  "deep": "ಆಳವಾದ ನಿದ್ರೆ",
+  "light": "ಹಗುರ ನಿದ್ರೆ",
+  "rem": "REM ನಿದ್ರೆ",
+  "awake": "ಎಚ್ಚರ"
+},
+ 
+"bp": {
+  "title": "ರಕ್ತದ ಒತ್ತಡ",
+  "subtitle": "ಸಿಸ್ಟಾಲಿಕ್ / ಡಯಾಸ್ಟಾಲಿಕ್ ವಿಶ್ಲೇಷಣೆ",
+  "lastMeasurement": "ಕೊನೆಯ ಅಳತೆ",
+  "pulse": "ನಾಡಿ",
+  "noData": "ಡೇಟಾ ಇಲ್ಲ",
+ 
+  "normal": "ಸಾಮಾನ್ಯ",
+  "low": "ಕಡಿಮೆ",
+  "elevated": "ಏರಿಕೆ",
+  "stage1": "ಹಂತ 1",
+  "stage2": "ಹಂತ 2",
+ 
+  "normalAdvice": "ಸಾಮಾನ್ಯ BP",
+  "lowAdvice": "ಕಡಿಮೆ BP",
+  "elevatedAdvice": "ಸ್ವಲ್ಪ ಹೆಚ್ಚು",
+  "stage1Advice": "ಹೆಚ್ಚಿನ BP",
+  "stage2Advice": "ಬಹಳ ಹೆಚ್ಚಿನ BP",
+ 
+  "rangeIndicator": "BP ಶ್ರೇಣಿ ಸೂಚಕ",
+ 
+  "sys": "sys",
+  "bpm": "bpm"
+},
+ 
+"glucose": {
+  "title": "ಗ್ಲೂಕೋಸ್",
+  "subtitle": "ರಕ್ತ ಸಕ್ಕರೆ ವಿಶ್ಲೇಷಣೆ",
+  "noData": "ಡೇಟಾ ಇಲ್ಲ",
+  "low": "ಕಡಿಮೆ",
+  "normal": "ಸಾಮಾನ್ಯ",
+  "high": "ಹೆಚ್ಚು",
+  "avg": "ಸರಾಸರಿ",
+  "min": "ಕನಿಷ್ಠ",
+  "max": "ಗರಿಷ್ಠ",
+  "unit": "mg/dL"
+},
+ 
+"temperature": {
+  "title": "ದೇಹದ ತಾಪಮಾನ",
+  "subtitle": "ನಿರಂತರ ಮೇಲ್ವಿಚಾರಣೆ",
+  "currentTemperature": "ಪ್ರಸ್ತುತ ತಾಪಮಾನ",
+  "temperature": "ತಾಪಮಾನ",
+  "status": "ಸ್ಥಿತಿ",
+  "high": "ಹೆಚ್ಚು",
+  "normal": "ಸಾಮಾನ್ಯ",
+  "low": "ಕಡಿಮೆ",
+  "noData": "ಡೇಟಾ ಇಲ್ಲ"
+},
+ 
+  "alerts": {
+    "heartRateAlert": "ಹೃದಯ ಬಡಿತ ಎಚ್ಚರಿಕೆ",
+    "batteryAlert": "ಬ್ಯಾಟರಿ ಎಚ್ಚರಿಕೆ",
+    "heartRateRecorded": "ಹೃದಯ ಬಡಿತ {value} bpm ಎಂದು ದಾಖಲಾಗಿದೆ",
+    "batteryDropped": "ಬ್ಯಾಟರಿ ಮಟ್ಟ {value}% ಗೆ ಇಳಿದಿದೆ",
+    "acknowledge": "ಸ್ವೀಕರಿಸಿ"
+  },
+
+  
+  "exerciseMetric": {
+    "title": "ವರ್ಕೌಟ್ ಚಟುವಟಿಕೆ",
+    "live": "ಲೈವ್",
+    "inactive": "ನಿಷ್ಕ್ರಿಯ",
+    "move": "ಚಲನೆ",
+    "exercise": "ವ್ಯಾಯಾಮ",
+    "walking": "ನಡೆಯುವುದು",
+    "workouts": "ವರ್ಕೌಟ್‌ಗಳು",
+    "totalDuration": "ಒಟ್ಟು ಅವಧಿ"
+  },
+
+  
+  "activityDonut": {
+    "weeklyActivity": "ವಾರದ {type} ಚಟುವಟಿಕೆ",
+    "mins": "ನಿಮಿಷಗಳು",
+    "completed": "ಪೂರ್ಣವಾಗಿದೆ",
+
+    "motivationStart": "ಆರಂಭಿಸೋಣ 💪",
+    "motivationProgress": "ಚೆನ್ನಾಗಿದೆ, ಮುಂದುವರಿಸಿ 🚶",
+    "motivationAlmost": "ಬಹುತೇಕ ಮುಗಿದಿದೆ 🔥",
+    "motivationDone": "ಅದ್ಭುತ ಕೆಲಸ 🏆"
+  },
+  
+  "exerciseForm": {
+    "title": "ಸೆಟ್ ಸೇರಿಸಿ (ತೂಕ ಮತ್ತು ರೆಪ್ಸ್)",
+    "exercise": "ವ್ಯಾಯಾಮ",
+    "reps": "ರೆಪ್ಸ್",
+    "weight": "ತೂಕ (ಕೆಜಿ)",
+    "saveSet": "ಸೆಟ್ ಉಳಿಸಿ",
+    "startWorkout": "ಸೆಟ್ ಸೇರಿಸಲು ಜಿಮ್ ವ್ಯಾಯಾಮ ಪ್ರಾರಂಭಿಸಿ",
+    "success": "ಸೆಟ್ ಯಶಸ್ವಿಯಾಗಿ ಸೇರಿಸಲಾಗಿದೆ"
+  },
+  
+  "createExerciseForm": {
+    "exerciseName": "ವ್ಯಾಯಾಮದ ಹೆಸರು",
+    "muscleGroup": "ಮಾಸಲ್ ಗುಂಪು",
+    "createExercise": "ವ್ಯಾಯಾಮ ರಚಿಸಿ",
+
+    "muscles": {
+      "CHEST": "ಛಾತಿ",
+      "BACK": "ಬೆನ್ನು",
+      "LEGS": "ಕಾಲುಗಳು",
+      "SHOULDERS": "ಭುಜಗಳು",
+      "BICEPS": "ಬೈಸೆಪ್ಸ್",
+      "TRICEPS": "ಟ್ರೈಸೆಪ್ಸ್",
+      "CORE": "ಕೋರ್",
+      "FULL_BODY": "ಪೂರ್ಣ ದೇಹ"
+    }
+  },
+  
+  "exerciseSlider": {
+    "title": "ರಚಿಸಲಾದ ವ್ಯಾಯಾಮಗಳು",
+    "firstUsed": "ಮೊದಲ ಬಾರಿ ಬಳಸಲಾಗಿದೆ",
+    "notUsed": "ಇನ್ನೂ ಬಳಸಲಾಗಿಲ್ಲ",
+    "empty": "ಇನ್ನೂ ಯಾವುದೇ ವ್ಯಾಯಾಮ ರಚಿಸಲಿಲ್ಲ"
+  },
+
+  
+  "liveWorkout": {
+    "steps": "ಹೆಜ್ಜೆಗಳು",
+    "today": "ಇಂದು",
+    "heartRate": "ಹೃದಯ ಬಡಿತ",
+    "avgHR": "ಸರಾಸರಿ HR",
+    "dailyGoal": "ದೈನಂದಿನ ಗುರಿ",
+    "setGoalSubtitle": "ನಿಮ್ಮ ಫಿಟ್ನೆಸ್ ಗುರಿಯನ್ನು ಹೊಂದಿಸಿ",
+    "completed": "ಪೂರ್ಣ",
+    "goalReached": "ನೀವು ಇಂದು ನಿಮ್ಮ ಗುರಿಯ {percent}% ತಲುಪಿದ್ದೀರಿ",
+    "save": "ಉಳಿಸಿ",
+    "setGoals": "ಫಿಟ್ನೆಸ್ ಗುರಿಗಳನ್ನು ಹೊಂದಿಸಿ"
+  },
+  
+  "todayProgress": {
+    "title": "ಇಂದಿನ ಚಟುವಟಿಕೆ",
+    "minutesActive": "ನಿಮಿಷಗಳು ಸಕ್ರಿಯ",
+    "noActivity": "ಯಾವುದೇ ಚಟುವಟಿಕೆ ಇಲ್ಲ",
+    "total": "ಒಟ್ಟು",
+    "breakdownTitle": "ಇಂದಿನ ವಿವರ",
+    "noWorkout": "ಇಂದು ವ್ಯಾಯಾಮ ಇಲ್ಲ"
+  },
+  
+  "weeklyStats": {
+    "title": "ವಾರದ ಸಾರಾಂಶ",
+    "workouts": "ವ್ಯಾಯಾಮಗಳು",
+    "duration": "ಅವಧಿ",
+    "calories": "ಕ್ಯಾಲೊರಿಗಳು",
+    "avgHR": "ಸರಾಸರಿ HR"
+  },
+  
+  "fitnessWeekly": {
+    "title": "ಫಿಟ್ನೆಸ್ ಚಟುವಟಿಕೆ",
+    "subtitle": "ವಾರದ ವ್ಯಾಯಾಮ ಚಟುವಟಿಕೆ",
+    "noWorkouts": "ವ್ಯಾಯಾಮ ಇಲ್ಲ",
+    "kcal": "ಕ್ಯಾಲೊರಿ"
+  },
+  
+  "workoutControls": {
+    "cardio": "ಕಾರ್ಡಿಯೋ",
+    "hiit": "HIIT",
+    "walk": "ನಡೆ",
+    "run": "ಓಟ",
+    "gym": "ಜಿಮ್",
+    "startWorkout": "ವ್ಯಾಯಾಮ ಪ್ರಾರಂಭಿಸಿ",
+    "endWorkout": "ವ್ಯಾಯಾಮ ಮುಗಿಸಿ"
+  },
+  
+  "workoutHistory": {
+    "title": "ವ್ಯಾಯಾಮ ಇತಿಹಾಸ",
+    "viewHistory": "ಇತಿಹಾಸ ನೋಡಿ",
+    "calories": "ಕ್ಯಾಲೊರಿ",
+    "avgHR": "ಸರಾಸರಿ ಹೃದಯ ಬಡಿತ",
+    "minutes": "ನಿಮಿಷ",
+    "empty": "ಇನ್ನೂ ವ್ಯಾಯಾಮ ಇಲ್ಲ"
+  },
+  
+  "workoutHistoryDialog": {
+    "title": "ವ್ಯಾಯಾಮ ಇತಿಹಾಸ",
+    "today": "ಇಂದು",
+    "yesterday": "ನಿನ್ನೆ",
+    "thisWeek": "ಈ ವಾರ",
+    "calories": "ಕ್ಯಾಲೊರಿ",
+    "avgHR": "ಸರಾಸರಿ ಹೃದಯ ಬಡಿತ",
+    "minutes": "ನಿಮಿಷ",
+    "empty": "ಇನ್ನೂ ವ್ಯಾಯಾಮ ಇಲ್ಲ",
+    "zones": {
+      "light": "ಹಗುರ",
+      "moderate": "ಮಧ್ಯಮ",
+      "intense": "ತೀವ್ರ"
+    }
+  },
+  
+  "fitnessDashboard": {
+    "title": "ಫಿಟ್ನೆಸ್",
+    "subtitle": "ನಿಮ್ಮ ವ್ಯಾಯಾಮ ಮತ್ತು ಚಟುವಟಿಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ",
+    "viewHistory": "ಇತಿಹಾಸ ನೋಡಿ"
+  },
+  
+  "register": {
+    "title": "ಖಾತೆ ರಚಿಸಿ",
+    "identifier": "ಇಮೇಲ್ ಅಥವಾ ಫೋನ್",
+    "password": "ಪಾಸ್ವರ್ಡ್",
+    "confirmPassword": "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+    "register": "ನೋಂದಣಿ",
+    "alreadyAccount": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?",
+    "login": "ಲಾಗಿನ್"
+  
+},
+
+  "login": {
+    "title": "ಲಾಗಿನ್",
+    "identifier": "ಇಮೇಲ್ ಅಥವಾ ಫೋನ್",
+    "password": "ಪಾಸ್ವರ್ಡ್",
+    "login": "ಲಾಗಿನ್",
+    "forgotPassword": "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿದ್ದೀರಾ?",
+    "createAccount": "ಖಾತೆ ರಚಿಸಿ",
+    "invalidCredentials": "ಅಮಾನ್ಯ ಲಾಗಿನ್ ವಿವರಗಳು"
+  },
+  
+  "forgotPassword": {
+    "title": "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿದ್ದೀರಾ",
+    "emailInstruction": "OTP ಪಡೆಯಲು ನಿಮ್ಮ ನೋಂದಾಯಿತ ಇಮೇಲ್ ನಮೂದಿಸಿ",
+    "email": "ಇಮೇಲ್",
+    "sendOtp": "OTP ಕಳುಹಿಸಿ",
+    "backLogin": "ಲಾಗಿನ್‌ಗೆ ಹಿಂತಿರುಗಿ",
+
+    "verifyTitle": "OTP ಪರಿಶೀಲಿಸಿ",
+    "verifyInstruction": "ನಿಮ್ಮ ಇಮೇಲ್‌ಗೆ ಕಳುಹಿಸಿದ OTP ನಮೂದಿಸಿ",
+    "enterOtp": "OTP ನಮೂದಿಸಿ",
+    "changeEmail": "ಇಮೇಲ್ ಬದಲಿಸಿ",
+    "resendOtp": "OTP ಮರುಕಳುಹಿಸಿ",
+
+    "resetTitle": "ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ",
+    "resetInstruction": "ಹೊಸ ಸುರಕ್ಷಿತ ಪಾಸ್ವರ್ಡ್ ರಚಿಸಿ",
+    "newPassword": "ಹೊಸ ಪಾಸ್ವರ್ಡ್",
+    "confirmPassword": "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+    "updatePassword": "ಪಾಸ್ವರ್ಡ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ"
+  },
+  
+  "liveMonitor": {
+    "title": "ಲೈವ್ ಮಾನಿಟರ್ • ಮಲ್ಟಿ ಡಿವೈಸ್ ಮೋಡ್",
+    "ecg": "ಇಸಿಜಿ ಲೀಡ್ II",
+    "heartRate": "ಹೃದಯ ಬಡಿತ",
+    "spo2": "ಆಮ್ಲಜನಕ ಮಟ್ಟ (SpO₂)",
+    "oxygen": "ಆಮ್ಲಜನಕ",
+    "temperature": "ದೇಹದ ತಾಪಮಾನ",
+    "stress": "ಒತ್ತಡ",
+    "bloodPressure": "ರಕ್ತದೊತ್ತಡ"
+  },
+  
+  "heartRate": {
+    "title": "ಹೃದಯ ಬಡಿತ ವಿಶ್ಲೇಷಣೆ",
+    "subtitle": "ರಿಯಲ್-ಟೈಮ್ ಮಾನಿಟರಿಂಗ್ ಮತ್ತು ಇತಿಹಾಸದ ಡೇಟಾ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "minimum": "ಕನಿಷ್ಠ",
+    "average": "ಸರಾಸರಿ",
+    "maximum": "ಗರಿಷ್ಠ",
+    "lastMeasurement": "ಕೊನೆಯ ಮಾಪನ",
+    "chartTitle": "ಕಾಲಕ್ರಮದಲ್ಲಿ ಹೃದಯ ಬಡಿತ"
+  },
+  
+  
+  "heartChart": {
+    "normal": "ಸಾಮಾನ್ಯ",
+    "bradycardia": "ಮಂದ ಹೃದಯ ಬಡಿತ",
+    "tachycardia": "ವೇಗವಾದ ಹೃದಯ ಬಡಿತ",
+    "elevated": "ಹೆಚ್ಚಾಗಿದೆ",
+
+    "aboveNormal": "ಹೃದಯ ಬಡಿತ ಸಾಮಾನ್ಯ ಮಟ್ಟಕ್ಕಿಂತ ಹೆಚ್ಚು",
+
+    "current": "ಪ್ರಸ್ತುತ",
+
+    "min": "ಕನಿಷ್ಠ",
+    "avg": "ಸರಾಸರಿ",
+    "max": "ಗರಿಷ್ಠ",
+
+    "bpm": "{value} bpm",
+
+    "minValue": "ಕನಿಷ್ಠ: {value} bpm",
+    "avgValue": "ಸರಾಸರಿ: {value} bpm",
+    "maxValue": "ಗರಿಷ್ಠ: {value} bpm"
+  },
+
+  
+  "steps": {
+    "title": "ಚಟುವಟಿಕೆ ಮೇಲ್ವಿಚಾರಣೆ",
+    "subtitle": "ದೈನಂದಿನ ಹೆಜ್ಜೆಗಳು ಮತ್ತು ಗಂಟೆವಾರು ವಿತರಣೆ",
+    "noData": "ಡೇಟಾ ಇಲ್ಲ",
+    "autoUpdate": "ಪ್ರತಿ 30 ಸೆಕೆಂಡಿಗೆ ಸ್ವಯಂ ಅಪ್ಡೇಟ್",
+    "refresh": "ಈಗ ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+  },
+  
+  "stepsChart": {
+    "weeklyTitle": "ವಾರದ ಹೆಜ್ಜೆಗಳ ವಿತರಣೆ",
+    "hourlyTitle": "ಗಂಟೆವಾರು ಹೆಜ್ಜೆಗಳ ವಿತರಣೆ",
+    "minuteTitle": "ಇತ್ತೀಚಿನ ಚಟುವಟಿಕೆ",
+
+    "weeklySubtitle": "ಕಳೆದ 7 ದಿನಗಳಲ್ಲಿ ದಿನದ ಹೆಜ್ಜೆಗಳು",
+    "hourlySubtitle": "ದಿನಪೂರ್ತಿ ಪ್ರತಿ ಗಂಟೆಯ ಹೆಜ್ಜೆಗಳು",
+    "minuteSubtitle": "ಇತ್ತೀಚಿನ ನಿಮಿಷಗಳಲ್ಲಿ ದಾಖಲಾಗಿದ ಹೆಜ್ಜೆಗಳು",
+
+    "avg": "ಸರಾಸರಿ: {value} ಹೆಜ್ಜೆಗಳು/{unit}",
+    "peak": "ಪೀಕ್: {time} ({value})",
+
+    "maxDay": "ಗರಿಷ್ಠ: {value} ಹೆಜ್ಜೆಗಳು/ದಿನ",
+    "maxHour": "ಗರಿಷ್ಠ: {value} ಹೆಜ್ಜೆಗಳು/ಗಂಟೆ",
+    "maxMinute": "ಗರಿಷ್ಠ: {value} ಹೆಜ್ಜೆಗಳು/ನಿಮಿಷ",
+
+    "total": "ಒಟ್ಟು: {value} ಹೆಜ್ಜೆಗಳು",
+
+    "day": "ದಿನ",
+    "hour": "ಗಂಟೆ"
+  },
+
+  
+  "stepsDial": {
+    "steps": "ಹೆಜ್ಜೆಗಳು",
+    "complete": "{value}% ಪೂರ್ಣ",
+    "dailyProgress": "ದೈನಂದಿನ ಚಟುವಟಿಕೆ ಪ್ರಗತಿ",
+    "progress": "ಪ್ರಗತಿ",
+
+    "distance": "ದೂರ",
+    "calories": "ಕ್ಯಾಲೊರಿ",
+    "pace": "ವೇಗ",
+    "remaining": "ಉಳಿದಿವೆ",
+
+    "monitoringPeriod": "ನಿರೀಕ್ಷಣಾ ಅವಧಿ",
+
+    "goal": "ದೈನಂದಿನ ಗುರಿ: {value} ಹೆಜ್ಜೆಗಳು",
+    "remainingGoal": "ಗುರಿ ತಲುಪಲು ಇನ್ನೂ {value} ಹೆಜ್ಜೆಗಳು"
+  },
+
+  
+  "spo2Chart": {
+    "collecting": "SpO₂ ಡೇಟಾ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತಿದೆ.",
+    "wearDevice": "ಪ್ರವೃತ್ತಿಗಳನ್ನು ನೋಡಲು ಕೆಲವು ನಿಮಿಷಗಳು ಸಾಧನವನ್ನು ಧರಿಸಿ.",
+
+    "current": "ಪ್ರಸ್ತುತ",
+    "min": "ಕನಿಷ್ಠ",
+    "max": "ಗರಿಷ್ಠ"
+  },
+
+  
+  "stress": {
+    "title": "ಒತ್ತಡ",
+    "subtitle": "ಮಾನಸಿಕ ಒತ್ತಡ ವಿಶ್ಲೇಷಣೆ",
+
+    "current": "ಪ್ರಸ್ತುತ",
+    "min": "ಕನಿಷ್ಠ",
+    "max": "ಗರಿಷ್ಠ",
+
+    "lastMeasurement": "ಕೊನೆಯ ಅಳತೆ",
+    "noData": "ಡೇಟಾ ಇಲ್ಲ"
+  },
+
+  
+  "stressDonut": {
+    "zone": "ಒತ್ತಡ ಮಟ್ಟ",
+
+    "noData": "ಡೇಟಾ ಇಲ್ಲ",
+    "relax": "ಶಾಂತಿ",
+    "normal": "ಸಾಮಾನ್ಯ",
+    "moderate": "ಮಧ್ಯಮ",
+    "high": "ಹೆಚ್ಚು"
+  },
+  
+  "stressChart": {
+    "noData": "ಡೇಟಾ ಇಲ್ಲ",
+    "relax": "ಶಾಂತಿ",
+    "normal": "ಸಾಮಾನ್ಯ",
+    "moderate": "ಮಧ್ಯಮ",
+    "high": "ಹೆಚ್ಚು",
+    "avgStress": "ಸರಾಸರಿ ಒತ್ತಡ"
+  },
+
+  
+  "dashboard": {
+    "common": {
+      "lastMeasured": "ಕೊನೆಯ ಮಾಪನ"
+    },
+    "heartRate": {
+      "title": "ಹೃದಯ ಬಡಿತ",
+      "currentRate": "ಪ್ರಸ್ತುತ ದರ",
+      "normal": "ಸಾಮಾನ್ಯ",
+      "monitor": "ನಿರೀಕ್ಷಿಸಿ"
+    },
+    "steps": {
+      "title": "ಹೆಜ್ಜೆಗಳು",
+      "today": "ಇಂದಿನ ಚಟುವಟಿಕೆ",
+      "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+      "active": "ಸಕ್ರಿಯ",
+      "moderate": "ಮಧ್ಯಮ"
+    },
+    "battery": {
+      "title": "ಬ್ಯಾಟರಿ",
+      "level": "ಸಾಧನ ಬ್ಯಾಟರಿ",
+      "good": "ಉತ್ತಮ",
+      "low": "ಕಡಿಮೆ"
+    },
+    "ecg": {
+      "title": "ECG",
+      "subtitle": "ಸಿಂಗಲ್-ಲೀಡ್ ECG (Lead I)",
+      "noRecord": "ಯಾವ ECG ದಾಖಲೆ ಇಲ್ಲ"
+    },
+    "spo2": {
+      "title": "SpO₂",
+      "current": "ಪ್ರಸ್ತುತ ಆಮ್ಲಜನಕ"
+    },
+    "sleep": {
+      "title": "ನಿದ್ರೆ",
+      "duration": "ಒಟ್ಟು ನಿದ್ರೆ ಅವಧಿ",
+      "good": "ಉತ್ತಮ",
+      "moderate": "ಮಧ್ಯಮ",
+      "low": "ಕಡಿಮೆ",
+      "noData": "ಡೇಟಾ ಇಲ್ಲ"
+    },
+    "bp": {
+      "title": "ರಕ್ತದೊತ್ತಡ",
+      "current": "ಪ್ರಸ್ತುತ BP",
+      "pulse": "ನಾಡಿ",
+      "noData": "ಡೇಟಾ ಇಲ್ಲ"
+    },
+    "glucose": {
+      "title": "ರಕ್ತ ಗ್ಲೂಕೋಸ್",
+      "last": "ಕೊನೆಯ ಓದು"
+    },
+    "temperature": {
+      "title": "ತಾಪಮಾನ",
+      "body": "ದೇಹದ ತಾಪಮಾನ",
+      "noData": "ಡೇಟಾ ಇಲ್ಲ"
+    },
+    "stress": {
+      "title": "ಒತ್ತಡ",
+      "level": "ಒತ್ತಡ ಮಟ್ಟ"
+    }
+  },
+
+  
+  "ecg": {
+    "title": "ECG ತರಂಗರೂಪ",
+    "sampling": "ಸ್ಯಾಂಪ್ಲಿಂಗ್",
+    "duration": "ಅವಧಿ",
+    "recordedAt": "ದಾಖಲಿಸಿದ ಸಮಯ",
+    "playing": "ECG ಸಿಗ್ನಲ್ ಪ್ಲೇ ಆಗುತ್ತಿದೆ…",
+    "complete": "ಪ್ಲೇಬ್ಯಾಕ್ ಪೂರ್ಣಗೊಂಡಿದೆ",
+    "voltage": "ವೋಲ್ಟೇಜ್ (mV)",
+    "time": "ಸಮಯ (ಮಿಲಿಸೆಕೆಂಡುಗಳು)",
+    "replay": "ECG ಮತ್ತೆ ಪ್ಲೇ ಮಾಡಿ"
+  },
+
+  
+  "ecgMonitor": {
+    "title": "ECG ಮಾನಿಟರ್",
+    "heartRate": "ಹೃದಯ ಬಡಿತ",
+    "prInterval": "PR ಮಧ್ಯಂತರ",
+    "qtInterval": "QT ಮಧ್ಯಂತರ",
+    "qrsDuration": "QRS ಅವಧಿ",
+    "liveSignal": "ಲೈವ್ ಸಿಗ್ನಲ್"
+  },
+  
+  "ecgSessions": {
+    "title": "ECG ಸೆಷನ್‌ಗಳು",
+    "duration": "ಅವಧಿ",
+    "samplingRate": "ಸ್ಯಾಂಪ್ಲಿಂಗ್ ದರ",
+    "leadInfo": "Lead I • 25 mm/s • 10 mm/mV",
+    "viewWaveform": "ವೇವ್‌ಫಾರ್ಮ್ ನೋಡಿ →"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

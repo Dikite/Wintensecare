@@ -1,0 +1,625 @@
+{
+  "navbar": {
+    "profile": "ప్రొఫైల్",
+    "devices": "పరికరాలు",
+    "dataSharing": "డేటా పంచుకోవడం",
+    "permissions": "అనుమతులు",
+    "logout": "లాగ్ అవుట్",
+    "live": "లైవ్",
+    "startLive": "లైవ్ ప్రారంభించండి",
+    "alerts": "అలర్ట్స్",
+    "refresh": "రిఫ్రెష్"
+  },
+  
+  "doctorAccess": {
+    "title": "డాక్టర్ యాక్సెస్",
+    "doctorId": "డాక్టర్ ఐడి",
+    "recordId": "రికార్డ్ ఐడి",
+    "changeAccess": "యాక్సెస్ మార్చండి",
+    "removeAccess": "యాక్సెస్ తొలగించండి",
+    "grantAccess": "యాక్సెస్ ఇవ్వండి",
+    "deletePermanent": "శాశ్వతంగా తొలగించండి",
+    "changeAccessTitle": "డాక్టర్ యాక్సెస్ మార్చండి",
+    "changeAccessText": "{name} కోసం యాక్సెస్‌ను {current} → {next} గా మార్చాలా?",
+    "revokeTitle": "డాక్టర్ యాక్సెస్ రద్దు చేయండి",
+    "revokeText": "{name} కు యాక్సెస్‌ను రద్దు చేయాలని మీరు ఖచ్చితంగా అనుకుంటున్నారా?",
+    "cancel": "రద్దు చేయండి",
+    "confirm": "నిర్ధారించండి",
+    "revoke": "రద్దు చేయండి"
+  },
+  "dashboardHeader": {
+  "systemTime": "సిస్టమ్ సమయం",
+  "latestMeasurement": "తాజా కొలత",
+  "noActiveDoctors": "క్రియాశీల డాక్టర్లు లేరు",
+  "noData": "డేటా అందుబాటులో లేదు"
+},
+ "profile": {
+    "title": "నా ప్రొఫైల్",
+    "subtitle": "మీ ఖాతా సమాచారాన్ని నిర్వహించండి",
+    "userId": "యూజర్ ఐడి",
+    "email": "ఈమెయిల్",
+    "role": "పాత్ర",
+    "standardUser": "సాధారణ వినియోగదారు"
+  },
+  "permissions": {
+    "title": "అనుమతులు",
+    "subtitle": "యాప్ డేటాను ఎలా ఉపయోగిస్తుందో నియంత్రించండి",
+ 
+    "criticalAlerts": "ముఖ్యమైన హెచ్చరికలు",
+    "backgroundMonitoring": "బ్యాక్‌గ్రౌండ్ మానిటరింగ్",
+    "cloudSync": "క్లౌడ్ సింక్",
+    "analyticsUsage": "అనలిటిక్స్ వినియోగం",
+    "autoConnect": "ఆటో కనెక్ట్ డివైస్",
+ 
+    "descCriticalAlerts": "ముఖ్యమైన ఆరోగ్య హెచ్చరికలను పొందండి",
+    "descBackgroundMonitoring": "బ్యాక్‌గ్రౌండ్ మానిటరింగ్‌కు అనుమతించండి",
+    "descCloudSync": "డేటాను క్లౌడ్ సర్వర్‌కు సింక్ చేయండి",
+    "descAnalyticsUsage": "అజ్ఞాత వినియోగ డేటాను పంచుకోండి",
+    "descAutoConnect": "వేరబుల్ డివైస్‌కు ఆటోమేటిక్‌గా కనెక్ట్ అవ్వండి"
+  },
+ 
+ 
+  "devices": {
+    "title": "మీ డివైస్‌ను ఎంచుకోండి",
+    "subtitle": "కొనసాగడానికి కనెక్ట్ అయిన wearable ను ఎంచుకోండి",
+    "add": "జోడించు",
+    "addDevice": "డివైస్ జోడించు",
+    "addNewDevice": "కొత్త డివైస్ జోడించు",
+    "deviceName": "డివైస్ పేరు",
+    "wearableType": "వేరబుల్ రకం",
+    "cancel": "రద్దు",
+    "confirm": "నిర్ధారించు",
+    "confirmDelete": "తొలగింపును నిర్ధారించు",
+    "deleteMessage": "ఈ డివైస్‌ను తొలగించాలనుకుంటున్నారా?",
+    "delete": "తొలగించు",
+    "select": "ఎంచుకోండి",
+    "noDevices": "డివైసులు లేవు",
+    "noDevicesSubtitle": "కొనసాగడానికి మీ మొదటి wearable ను జోడించండి"
+  },
+  "telemetry": {
+    "comingSoon": "Telemetry UI త్వరలో వస్తుంది"
+  },
+ 
+  "sleep": {
+  "title": "నిద్ర మానిటరింగ్",
+  "subtitle": "నిద్ర వ్యవధి మరియు నిద్ర దశ నిష్పత్తి",
+  "latestSleep": "తాజా నిద్ర",
+  "noData": "డేటా లేదు",
+  "loading": "నిద్ర డేటా లోడ్ అవుతోంది...",
+  "noSleepData": "నిద్ర డేటా అందుబాటులో లేదు",
+  "averageSleep": "సగటు నిద్ర",
+  "efficiency": "సామర్థ్యం",
+  "schedule": "నిద్ర షెడ్యూల్",
+  "good": "మంచిది",
+  "moderate": "మధ్యస్థం",
+  "low": "తక్కువ",
+ 
+   "sleepRatio": "నిద్ర నిష్పత్తి",
+  "noRatioData": "నిష్పత్తి డేటా లేదు",
+  "noSleepSession": "ఈ రోజు నిద్ర సెషన్ లేదు",
+ 
+  "total": "మొత్తం",
+  "deep": "లోతైన నిద్ర",
+  "light": "తేలికపాటి నిద్ర",
+  "rem": "REM నిద్ర",
+  "awake": "మేల్కొన్న"
+},
+ 
+"bp": {
+  "title": "రక్తపోటు",
+  "subtitle": "సిస్టోలిక్ / డయాస్టోలిక్ విశ్లేషణ",
+  "lastMeasurement": "చివరి కొలత",
+  "pulse": "పల్స్",
+  "noData": "డేటా లేదు",
+ 
+  "normal": "సాధారణం",
+  "low": "తక్కువ",
+  "elevated": "ఎక్కువ",
+  "stage1": "దశ 1",
+  "stage2": "దశ 2",
+ 
+  "normalAdvice": "సాధారణ BP",
+  "lowAdvice": "తక్కువ BP",
+  "elevatedAdvice": "కొంచెం ఎక్కువ",
+  "stage1Advice": "అధిక BP",
+  "stage2Advice": "చాలా అధిక BP",
+ 
+  "rangeIndicator": "BP పరిధి సూచిక",
+ 
+  "sys": "sys",
+  "bpm": "bpm"
+},
+ 
+"glucose": {
+  "title": "గ్లూకోజ్",
+  "subtitle": "రక్త చక్కెర విశ్లేషణ",
+  "noData": "డేటా లేదు",
+  "low": "తక్కువ",
+  "normal": "సాధారణం",
+  "high": "ఎక్కువ",
+  "avg": "సగటు",
+  "min": "కనిష్టం",
+  "max": "గరిష్టం",
+  "unit": "mg/dL"
+},
+ 
+"temperature": {
+  "title": "శరీర ఉష్ణోగ్రత",
+  "subtitle": "నిరంతర పర్యవేక్షణ",
+  "currentTemperature": "ప్రస్తుత ఉష్ణోగ్రత",
+  "temperature": "ఉష్ణోగ్రత",
+  "status": "స్థితి",
+  "high": "అధికం",
+  "normal": "సాధారణం",
+  "low": "తక్కువ",
+  "noData": "డేటా లేదు"
+},
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "alerts": {
+    "heartRateAlert": "హార్ట్ రేట్ అలర్ట్",
+    "batteryAlert": "బ్యాటరీ అలర్ట్",
+    "heartRateRecorded": "హార్ట్ రేట్ {value} bpm గా నమోదైంది",
+    "batteryDropped": "బ్యాటరీ స్థాయి {value}% కు పడిపోయింది",
+    "acknowledge": "ఆమోదించండి"
+  },
+
+      "exerciseMetric": {
+    "title": "వ్యాయామ కార్యకలాపం",
+    "live": "లైవ్",
+    "inactive": "నిష్క్రియ",
+    "move": "కదలిక",
+    "exercise": "వ్యాయామం",
+    "walking": "నడక",
+    "workouts": "వ్యాయామాలు",
+    "totalDuration": "మొత్తం వ్యవధి"
+  },
+
+  
+  "activityDonut": {
+    "weeklyActivity": "వారాంతపు {type} కార్యకలాపం",
+    "mins": "నిమిషాలు",
+    "completed": "పూర్తైంది",
+
+    "motivationStart": "మొదలు పెడదాం 💪",
+    "motivationProgress": "మంచి పురోగతి, కొనసాగించండి 🚶",
+    "motivationAlmost": "దాదాపు పూర్తయింది 🔥",
+    "motivationDone": "అద్భుతమైన పని 🏆"
+  
+},
+
+
+  "exerciseForm": {
+    "title": "సెట్ జోడించండి (బరువు & రిప్స్)",
+    "exercise": "వ్యాయామం",
+    "reps": "రిప్స్",
+    "weight": "బరువు (కిలో)",
+    "saveSet": "సెట్ సేవ్ చేయండి",
+    "startWorkout": "సెట్లు జోడించడానికి జిమ్ వ్యాయామాన్ని ప్రారంభించండి",
+    "success": "సెట్ విజయవంతంగా జోడించబడింది"
+  },
+  "createExerciseForm": {
+    "exerciseName": "వ్యాయామం పేరు",
+    "muscleGroup": "పేశి సమూహం",
+    "createExercise": "వ్యాయామం సృష్టించండి",
+
+    "muscles": {
+      "CHEST": "ఛాతి",
+      "BACK": "వెన్ను",
+      "LEGS": "కాళ్లు",
+      "SHOULDERS": "భుజాలు",
+      "BICEPS": "బైసెప్స్",
+      "TRICEPS": "ట్రైసెప్స్",
+      "CORE": "కోర్",
+      "FULL_BODY": "మొత్తం శరీరం"
+    }
+  },
+  
+  "exerciseSlider": {
+    "title": "సృష్టించిన వ్యాయామాలు",
+    "firstUsed": "మొదట ఉపయోగించిన తేదీ",
+    "notUsed": "ఇంకా ఉపయోగించలేదు",
+    "empty": "ఇంకా ఎలాంటి వ్యాయామాలు సృష్టించలేదు"
+  },
+
+  
+  "liveWorkout": {
+    "steps": "అడుగులు",
+    "today": "ఈ రోజు",
+    "heartRate": "హార్ట్ రేట్",
+    "avgHR": "సగటు HR",
+    "dailyGoal": "రోజువారీ లక్ష్యం",
+    "setGoalSubtitle": "మీ ఫిట్నెస్ లక్ష్యాన్ని సెట్ చేయండి",
+    "completed": "పూర్తి",
+    "goalReached": "మీరు ఈ రోజు మీ లక్ష్యంలోని {percent}% సాధించారు",
+    "save": "సేవ్ చేయండి",
+    "setGoals": "ఫిట్నెస్ లక్ష్యాలను సెట్ చేయండి"
+  },
+  
+  "todayProgress": {
+    "title": "ఈరోజు కార్యకలాపం",
+    "minutesActive": "నిమిషాలు క్రియాశీలం",
+    "noActivity": "కార్యకలాపం లేదు",
+    "total": "మొత్తం",
+    "breakdownTitle": "ఈరోజు విభజన",
+    "noWorkout": "ఈరోజు వ్యాయామం లేదు"
+  },
+  
+  "weeklyStats": {
+    "title": "వారపు సారాంశం",
+    "workouts": "వ్యాయామాలు",
+    "duration": "వ్యవధి",
+    "calories": "క్యాలరీలు",
+    "avgHR": "సగటు HR"
+  },
+  
+  "fitnessWeekly": {
+    "title": "ఫిట్‌నెస్ కార్యకలాపం",
+    "subtitle": "వారాంతపు వ్యాయామ కార్యకలాపం",
+    "noWorkouts": "వ్యాయామం లేదు",
+    "kcal": "క్యాలరీలు"
+  
+},
+
+  "workoutControls": {
+    "cardio": "కార్డియో",
+    "hiit": "HIIT",
+    "walk": "నడక",
+    "run": "పరుగెత్తడం",
+    "gym": "జిమ్",
+    "startWorkout": "వ్యాయామం ప్రారంభించండి",
+    "endWorkout": "వ్యాయామం ముగించండి"
+  },
+  
+  "workoutHistory": {
+    "title": "వ్యాయామ చరిత్ర",
+    "viewHistory": "చరిత్ర చూడండి",
+    "calories": "క్యాలరీలు",
+    "avgHR": "సగటు హార్ట్ రేట్",
+    "minutes": "నిమి",
+    "empty": "ఇంకా వ్యాయామం లేదు"
+  
+},
+
+  "workoutHistoryDialog": {
+    "title": "వ్యాయామ చరిత్ర",
+    "today": "ఈ రోజు",
+    "yesterday": "నిన్న",
+    "thisWeek": "ఈ వారం",
+    "calories": "క్యాలరీలు",
+    "avgHR": "సగటు హార్ట్ రేట్",
+    "minutes": "నిమి",
+    "empty": "ఇంకా వ్యాయామం లేదు",
+    "zones": {
+      "light": "తేలిక",
+      "moderate": "మధ్యస్థ",
+      "intense": "తీవ్రం"
+    }
+  },
+  
+  "fitnessDashboard": {
+    "title": "ఫిట్‌నెస్",
+    "subtitle": "మీ వ్యాయామాలు మరియు కార్యకలాపాలను ట్రాక్ చేయండి",
+    "viewHistory": "చరిత్ర చూడండి"
+  },
+  
+  "register": {
+    "title": "ఖాతా సృష్టించండి",
+    "identifier": "ఇమెయిల్ లేదా ఫోన్",
+    "password": "పాస్‌వర్డ్",
+    "confirmPassword": "పాస్‌వర్డ్ నిర్ధారించండి",
+    "register": "నమోదు చేయండి",
+    "alreadyAccount": "ఇప్పటికే ఖాతా ఉందా?",
+    "login": "లాగిన్"
+  },
+  
+  "login": {
+    "title": "లాగిన్",
+    "identifier": "ఇమెయిల్ లేదా ఫోన్",
+    "password": "పాస్‌వర్డ్",
+    "login": "లాగిన్",
+    "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "createAccount": "ఖాతా సృష్టించండి",
+    "invalidCredentials": "తప్పు లాగిన్ వివరాలు"
+  },
+  
+  "forgotPassword": {
+    "title": "పాస్‌వర్డ్ మర్చిపోయారా",
+    "emailInstruction": "OTP పొందడానికి మీ నమోదైన ఇమెయిల్ నమోదు చేయండి",
+    "email": "ఇమెయిల్",
+    "sendOtp": "OTP పంపండి",
+    "backLogin": "లాగిన్‌కు తిరిగి వెళ్లండి",
+
+    "verifyTitle": "OTP ధృవీకరించండి",
+    "verifyInstruction": "మీ ఇమెయిల్‌కు పంపిన OTP నమోదు చేయండి",
+    "enterOtp": "OTP నమోదు చేయండి",
+    "changeEmail": "ఇమెయిల్ మార్చండి",
+    "resendOtp": "OTP మళ్లీ పంపండి",
+
+    "resetTitle": "పాస్‌వర్డ్ రీసెట్ చేయండి",
+    "resetInstruction": "కొత్త సురక్షిత పాస్‌వర్డ్ సృష్టించండి",
+    "newPassword": "కొత్త పాస్‌వర్డ్",
+    "confirmPassword": "పాస్‌వర్డ్ నిర్ధారించండి",
+    "updatePassword": "పాస్‌వర్డ్ నవీకరించండి"
+  },
+  
+  "liveMonitor": {
+    "title": "లైవ్ మానిటర్ • మల్టీ డివైస్ మోడ్",
+    "ecg": "ఈసీజీ లీడ్ II",
+    "heartRate": "హార్ట్ రేట్",
+    "spo2": "ఆక్సిజన్ స్థాయి (SpO₂)",
+    "oxygen": "ఆక్సిజన్",
+    "temperature": "శరీర ఉష్ణోగ్రత",
+    "stress": "స్ట్రెస్",
+    "bloodPressure": "రక్తపోటు"
+  },
+  
+  "heartRate": {
+    "title": "హార్ట్ రేట్ విశ్లేషణ",
+    "subtitle": "రియల్ టైమ్ మానిటరింగ్ మరియు చారిత్రక డేటా",
+    "loading": "లోడ్ అవుతోంది...",
+    "minimum": "కనిష్టం",
+    "average": "సగటు",
+    "maximum": "గరిష్టం",
+    "lastMeasurement": "చివరి కొలత",
+    "chartTitle": "కాలానుగుణంగా హార్ట్ రేట్"
+  },
+  
+
+  "heartChart": {
+    "normal": "సాధారణం",
+    "bradycardia": "మందమైన గుండె స్పందన",
+    "tachycardia": "వేగమైన గుండె స్పందన",
+    "elevated": "పెరిగిన",
+
+    "aboveNormal": "గుండె స్పందన సాధారణ స్థాయిని మించింది",
+
+    "current": "ప్రస్తుత",
+
+    "min": "కనిష్టం",
+    "avg": "సగటు",
+    "max": "గరిష్టం",
+
+    "bpm": "{value} bpm",
+
+    "minValue": "కనిష్టం: {value} bpm",
+    "avgValue": "సగటు: {value} bpm",
+    "maxValue": "గరిష్టం: {value} bpm"
+  },
+  
+  "steps": {
+    "title": "కార్యాచరణ పర్యవేక్షణ",
+    "subtitle": "రోజువారీ అడుగులు మరియు గంటల వారీ పంపిణీ",
+    "noData": "డేటా లేదు",
+    "autoUpdate": "ప్రతి 30 సెకన్లకు ఆటో అప్డేట్",
+    "refresh": "ఇప్పుడు రిఫ్రెష్ చేయండి"
+  },
+
+  
+  "stepsChart": {
+    "weeklyTitle": "వారపు అడుగుల పంపిణీ",
+    "hourlyTitle": "గంటల వారీ అడుగుల పంపిణీ",
+    "minuteTitle": "ఇటీవలి కార్యాచరణ",
+
+    "weeklySubtitle": "గత 7 రోజులలో రోజువారీ అడుగులు",
+    "hourlySubtitle": "రోజంతా గంటకు అడుగులు",
+    "minuteSubtitle": "ఇటీవలి నిమిషాలలో నమోదు చేసిన అడుగులు",
+
+    "avg": "సగటు: {value} అడుగులు/{unit}",
+    "peak": "పీక్: {time} ({value})",
+
+    "maxDay": "గరిష్టం: {value} అడుగులు/రోజు",
+    "maxHour": "గరిష్టం: {value} అడుగులు/గంట",
+    "maxMinute": "గరిష్టం: {value} అడుగులు/నిమిషం",
+
+    "total": "మొత్తం: {value} అడుగులు",
+
+    "day": "రోజు",
+    "hour": "గంట"
+  },
+
+  
+  "stepsDial": {
+    "steps": "అడుగులు",
+    "complete": "{value}% పూర్తైంది",
+    "dailyProgress": "రోజువారీ కార్యకలాప పురోగతి",
+    "progress": "పురోగతి",
+
+    "distance": "దూరం",
+    "calories": "కాలరీలు",
+    "pace": "వేగం",
+    "remaining": "మిగిలినవి",
+
+    "monitoringPeriod": "పర్యవేక్షణ కాలం",
+
+    "goal": "రోజువారీ లక్ష్యం: {value} అడుగులు",
+    "remainingGoal": "మీ లక్ష్యాన్ని చేరుకోవడానికి ఇంకా {value} అడుగులు"
+  },
+  
+  "spo2": {
+    "subtitle": "ఆక్సిజన్ సాచురేషన్",
+
+    "lowest": "కనిష్టం",
+    "current": "ప్రస్తుత",
+    "highest": "గరిష్టం",
+
+    "normal": "సాధారణం",
+    "low": "తక్కువ",
+    "critical": "అత్యవసరం",
+
+    "noData": "డేటా లేదు",
+
+    "chartHint": "డాట్ = సగటు SpO₂ · పిల్ ఎత్తు = కనిష్ట–గరిష్ట పరిధి"
+  },
+  
+  "spo2Chart": {
+    "collecting": "SpO₂ డేటా సేకరించబడుతోంది.",
+    "wearDevice": "ట్రెండ్‌లను చూడటానికి కొన్ని నిమిషాలు పరికరాన్ని ధరించండి.",
+
+    "current": "ప్రస్తుతం",
+    "min": "కనిష్టం",
+    "max": "గరిష్టం"
+  },
+  
+  "stress": {
+    "title": "మానసిక ఒత్తిడి",
+    "subtitle": "మానసిక ఒత్తిడి విశ్లేషణ",
+
+    "current": "ప్రస్తుతం",
+    "min": "కనిష్టం",
+    "max": "గరిష్టం",
+
+    "lastMeasurement": "చివరి కొలత",
+    "noData": "డేటా లేదు"
+  },
+
+  
+  "stressDonut": {
+    "zone": "మానసిక ఒత్తిడి స్థాయి",
+
+    "noData": "డేటా లేదు",
+    "relax": "ఆరామం",
+    "normal": "సాధారణం",
+    "moderate": "మధ్యస్థం",
+    "high": "అధికం"
+  },
+
+  
+  "stressChart": {
+    "noData": "డేటా లేదు",
+    "relax": "ఆరామం",
+    "normal": "సాధారణం",
+    "moderate": "మధ్యస్థం",
+    "high": "అధికం",
+    "avgStress": "సగటు ఒత్తిడి"
+  },
+
+  
+  "dashboard": {
+    "common": {
+      "lastMeasured": "చివరి కొలత"
+    },
+    "heartRate": {
+      "title": "హృదయ స్పందన",
+      "currentRate": "ప్రస్తుత రేటు",
+      "normal": "సాధారణం",
+      "monitor": "పర్యవేక్షించండి"
+    },
+    "steps": {
+      "title": "అడుగులు",
+      "today": "ఈరోజు కార్యకలాపం",
+      "loading": "లోడ్ అవుతోంది...",
+      "active": "సక్రియం",
+      "moderate": "మధ్యస్థం"
+    },
+    "battery": {
+      "title": "బ్యాటరీ",
+      "level": "పరికరం బ్యాటరీ",
+      "good": "మంచిది",
+      "low": "తక్కువ"
+    },
+    "ecg": {
+      "title": "ECG",
+      "subtitle": "సింగిల్-లీడ్ ECG (Lead I)",
+      "noRecord": "ECG రికార్డు లేదు"
+    },
+    "spo2": {
+      "title": "SpO₂",
+      "current": "ప్రస్తుత ఆక్సిజన్"
+    },
+    "sleep": {
+      "title": "నిద్ర",
+      "duration": "మొత్తం నిద్ర వ్యవధి",
+      "good": "మంచిది",
+      "moderate": "మధ్యస్థం",
+      "low": "తక్కువ",
+      "noData": "డేటా లేదు"
+    },
+    "bp": {
+      "title": "రక్తపోటు",
+      "current": "ప్రస్తుత BP",
+      "pulse": "నాడి",
+      "noData": "డేటా లేదు"
+    },
+    "glucose": {
+      "title": "రక్త గ్లూకోజ్",
+      "last": "చివరి రీడింగ్"
+    },
+    "temperature": {
+      "title": "ఉష్ణోగ్రత",
+      "body": "శరీర ఉష్ణోగ్రత",
+      "noData": "డేటా లేదు"
+    },
+    "stress": {
+      "title": "మానసిక ఒత్తిడి",
+      "level": "ఒత్తిడి స్థాయి"
+    }
+  },
+
+  
+  "ecg": {
+    "title": "ECG తరంగ రూపం",
+    "sampling": "సాంప్లింగ్",
+    "duration": "వ్యవధి",
+    "recordedAt": "రికార్డ్ చేసిన సమయం",
+    "playing": "ECG సిగ్నల్ ప్లే అవుతోంది…",
+    "complete": "ప్లేబ్యాక్ పూర్తైంది",
+    "voltage": "వోల్టేజ్ (mV)",
+    "time": "సమయం (మిల్లీసెకన్లు)",
+    "replay": "ECG మళ్లీ ప్లే చేయండి"
+  },
+  
+  "ecgMonitor": {
+    "title": "ECG మానిటర్",
+    "heartRate": "హృదయ స్పందన",
+    "prInterval": "PR అంతరం",
+    "qtInterval": "QT అంతరం",
+    "qrsDuration": "QRS వ్యవధి",
+    "liveSignal": "లైవ్ సిగ్నల్"
+  },
+  
+  "ecgSessions": {
+    "title": "ECG సెషన్లు",
+    "duration": "వ్యవధి",
+    "samplingRate": "సాంప్లింగ్ రేట్",
+    "leadInfo": "Lead I • 25 mm/s • 10 mm/mV",
+    "viewWaveform": "వేవ్‌ఫార్మ్ చూడండి →"
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

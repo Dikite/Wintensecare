@@ -1,0 +1,613 @@
+{
+  "navbar": {
+    "profile": "प्रोफ़ाइल",
+    "devices": "डिवाइस",
+    "dataSharing": "डेटा साझा करना",
+    "permissions": "अनुमतियाँ",
+    "logout": "लॉगआउट",
+    "live": "लाइव",
+    "startLive": "लाइव शुरू करें",
+    "alerts": "अलर्ट",
+    "refresh": "रीफ्रेश"
+  },
+  
+  "doctorAccess": {
+    "title": "डॉक्टर एक्सेस",
+    "doctorId": "डॉक्टर आईडी",
+    "recordId": "रिकॉर्ड आईडी",
+    "changeAccess": "एक्सेस बदलें",
+    "removeAccess": "एक्सेस हटाएँ",
+    "grantAccess": "एक्सेस दें",
+    "deletePermanent": "स्थायी रूप से हटाएँ",
+    "changeAccessTitle": "डॉक्टर एक्सेस बदलें",
+    "changeAccessText": "{name} के लिए एक्सेस {current} → {next} में बदलना चाहते हैं?",
+    "revokeTitle": "डॉक्टर एक्सेस रद्द करें",
+    "revokeText": "क्या आप वाकई {name} की एक्सेस रद्द करना चाहते हैं?",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "revoke": "रद्द करें"
+  },
+  
+  "dashboardHeader": {
+  "systemTime": "सिस्टम समय",
+  "latestMeasurement": "नवीनतम माप",
+  "noActiveDoctors": "कोई सक्रिय डॉक्टर नहीं",
+  "noData": "कोई डेटा उपलब्ध नहीं"
+},
+"profile": {
+    "title": "मेरा प्रोफ़ाइल",
+    "subtitle": "अपने खाते की जानकारी प्रबंधित करें",
+    "userId": "उपयोगकर्ता आईडी",
+    "email": "ईमेल",
+    "role": "भूमिका",
+    "standardUser": "सामान्य उपयोगकर्ता"
+  },
+  "permissions": {
+    "title": "अनुमतियाँ",
+    "subtitle": "ऐप डेटा को कैसे उपयोग करता है इसे नियंत्रित करें",
+ 
+    "criticalAlerts": "महत्वपूर्ण अलर्ट",
+    "backgroundMonitoring": "पृष्ठभूमि निगरानी",
+    "cloudSync": "क्लाउड सिंक",
+    "analyticsUsage": "एनालिटिक्स उपयोग",
+    "autoConnect": "डिवाइस ऑटो कनेक्ट",
+ 
+    "descCriticalAlerts": "महत्वपूर्ण स्वास्थ्य अलर्ट प्राप्त करें",
+    "descBackgroundMonitoring": "पृष्ठभूमि निगरानी की अनुमति दें",
+    "descCloudSync": "डेटा को क्लाउड सर्वर से सिंक करें",
+    "descAnalyticsUsage": "अनाम उपयोग डेटा साझा करें",
+    "descAutoConnect": "वियरेबल डिवाइस से स्वचालित रूप से कनेक्ट करें"
+  },
+ 
+  "devices": {
+    "title": "अपना डिवाइस चुनें",
+    "subtitle": "जारी रखने के लिए कनेक्टेड वेयरेबल चुनें",
+    "add": "जोड़ें",
+    "addDevice": "डिवाइस जोड़ें",
+    "addNewDevice": "नया डिवाइस जोड़ें",
+    "deviceName": "डिवाइस नाम",
+    "wearableType": "वेयरेबल प्रकार",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "confirmDelete": "हटाने की पुष्टि करें",
+    "deleteMessage": "क्या आप इस डिवाइस को हटाना चाहते हैं?",
+    "delete": "हटाएं",
+    "select": "चुनें",
+    "noDevices": "कोई डिवाइस नहीं मिला",
+    "noDevicesSubtitle": "जारी रखने के लिए अपना पहला वेयरेबल जोड़ें"
+  },
+  "telemetry": {
+    "comingSoon": "Telemetry UI जल्द आ रहा है"
+  },
+ 
+  "sleep": {
+  "title": "नींद निगरानी",
+  "subtitle": "नींद की अवधि और नींद चरण अनुपात",
+  "latestSleep": "नवीनतम नींद",
+  "noData": "कोई डेटा नहीं",
+  "loading": "नींद डेटा लोड हो रहा है...",
+  "noSleepData": "कोई नींद डेटा उपलब्ध नहीं",
+  "averageSleep": "औसत नींद",
+  "efficiency": "कुशलता",
+  "schedule": "नींद समय सारणी",
+  "good": "अच्छा",
+  "moderate": "मध्यम",
+  "low": "कम",
+ 
+  "sleepRatio": "नींद अनुपात",
+  "noRatioData": "कोई अनुपात डेटा नहीं",
+  "noSleepSession": "आज के लिए कोई नींद सत्र नहीं",
+ 
+  "total": "कुल",
+  "deep": "गहरी नींद",
+  "light": "हल्की नींद",
+  "rem": "REM नींद",
+  "awake": "जागृत"
+},
+ 
+"bp": {
+  "title": "रक्तचाप",
+  "subtitle": "सिस्टोलिक / डायस्टोलिक विश्लेषण",
+  "lastMeasurement": "अंतिम माप",
+  "pulse": "नाड़ी",
+  "noData": "कोई डेटा नहीं",
+ 
+  "normal": "सामान्य",
+  "low": "कम",
+  "elevated": "उच्च",
+  "stage1": "स्टेज 1",
+  "stage2": "स्टेज 2",
+ 
+  "normalAdvice": "सामान्य BP",
+  "lowAdvice": "कम BP",
+  "elevatedAdvice": "थोड़ा अधिक",
+  "stage1Advice": "उच्च BP",
+  "stage2Advice": "बहुत अधिक BP",
+ 
+ 
+  "rangeIndicator": "BP रेंज संकेतक",
+ 
+  "sys": "sys",
+  "bpm": "bpm"
+ 
+},
+ 
+"glucose": {
+  "title": "ग्लूकोज़",
+  "subtitle": "रक्त शर्करा विश्लेषण",
+  "noData": "कोई डेटा नहीं",
+  "low": "कम",
+  "normal": "सामान्य",
+  "high": "अधिक",
+  "avg": "औसत",
+  "min": "न्यूनतम",
+  "max": "अधिकतम",
+  "unit": "mg/dL"
+},
+ 
+"temperature": {
+  "title": "शरीर का तापमान",
+  "subtitle": "निरंतर निगरानी",
+  "currentTemperature": "वर्तमान तापमान",
+  "temperature": "तापमान",
+  "status": "स्थिति",
+  "high": "उच्च",
+  "normal": "सामान्य",
+  "low": "कम",
+  "noData": "कोई डेटा नहीं"
+},
+ 
+ 
+ 
+
+
+
+
+
+  "alerts": {
+    "heartRateAlert": "हार्ट रेट अलर्ट",
+    "batteryAlert": "बैटरी अलर्ट",
+    "heartRateRecorded": "हार्ट रेट {value} bpm दर्ज किया गया",
+    "batteryDropped": "बैटरी स्तर {value}% तक गिर गया",
+    "acknowledge": "स्वीकार करें"
+  },
+  
+  "exerciseMetric": {
+    "title": "वर्कआउट गतिविधि",
+    "live": "लाइव",
+    "inactive": "निष्क्रिय",
+    "move": "गतिविधि",
+    "exercise": "व्यायाम",
+    "walking": "चलना",
+    "workouts": "वर्कआउट",
+    "totalDuration": "कुल अवधि"
+  
+},
+
+
+  "activityDonut": {
+    "weeklyActivity": "साप्ताहिक {type} गतिविधि",
+    "mins": "मिनट",
+    "completed": "पूरा हुआ",
+
+    "motivationStart": "चलो शुरू करें 💪",
+    "motivationProgress": "अच्छी प्रगति, जारी रखें 🚶",
+    "motivationAlmost": "लगभग पूरा 🔥",
+    "motivationDone": "शानदार काम 🏆"
+  },
+  
+  "exerciseForm": {
+    "title": "सेट जोड़ें (वजन और रेप्स)",
+    "exercise": "व्यायाम",
+    "reps": "रेप्स",
+    "weight": "वजन (किलो)",
+    "saveSet": "सेट सहेजें",
+    "startWorkout": "सेट जोड़ने के लिए जिम वर्कआउट शुरू करें",
+    "success": "सेट सफलतापूर्वक जोड़ा गया"
+  
+},
+
+  "createExerciseForm": {
+    "exerciseName": "व्यायाम का नाम",
+    "muscleGroup": "मांसपेशी समूह",
+    "createExercise": "व्यायाम बनाएं",
+
+    "muscles": {
+      "CHEST": "छाती",
+      "BACK": "पीठ",
+      "LEGS": "पैर",
+      "SHOULDERS": "कंधे",
+      "BICEPS": "बाइसेप्स",
+      "TRICEPS": "ट्राइसेप्स",
+      "CORE": "कोर",
+      "FULL_BODY": "पूरा शरीर"
+    }
+  },
+  
+  "exerciseSlider": {
+    "title": "बनाए गए व्यायाम",
+    "firstUsed": "पहली बार उपयोग किया गया",
+    "notUsed": "अभी तक उपयोग नहीं किया गया",
+    "empty": "अभी तक कोई व्यायाम नहीं बनाया गया"
+  },
+
+  
+  "liveWorkout": {
+    "steps": "कदम",
+    "today": "आज",
+    "heartRate": "हृदय गति",
+    "avgHR": "औसत HR",
+    "dailyGoal": "दैनिक लक्ष्य",
+    "setGoalSubtitle": "अपना फिटनेस लक्ष्य सेट करें",
+    "completed": "पूरा",
+    "goalReached": "आपने आज अपने लक्ष्य का {percent}% पूरा कर लिया है",
+    "save": "सेव करें",
+    "setGoals": "फिटनेस लक्ष्य सेट करें"
+  },
+  
+  "todayProgress": {
+    "title": "आज की गतिविधि",
+    "minutesActive": "मिनट सक्रिय",
+    "noActivity": "कोई गतिविधि नहीं",
+    "total": "कुल",
+    "breakdownTitle": "आज का विवरण",
+    "noWorkout": "आज कोई वर्कआउट नहीं"
+  },
+  
+  "weeklyStats": {
+    "title": "साप्ताहिक सारांश",
+    "workouts": "वर्कआउट",
+    "duration": "अवधि",
+    "calories": "कैलोरी",
+    "avgHR": "औसत HR"
+  
+},
+
+  "fitnessWeekly": {
+    "title": "फिटनेस गतिविधि",
+    "subtitle": "साप्ताहिक वर्कआउट गतिविधि",
+    "noWorkouts": "कोई वर्कआउट नहीं",
+    "kcal": "कैलोरी"
+  },
+  
+  "workoutControls": {
+    "cardio": "कार्डियो",
+    "hiit": "HIIT",
+    "walk": "चलना",
+    "run": "दौड़",
+    "gym": "जिम",
+    "startWorkout": "वर्कआउट शुरू करें",
+    "endWorkout": "वर्कआउट समाप्त करें"
+  },
+  
+  "workoutHistory": {
+    "title": "वर्कआउट इतिहास",
+    "viewHistory": "इतिहास देखें",
+    "calories": "कैलोरी",
+    "avgHR": "औसत हृदय गति",
+    "minutes": "मिनट",
+    "empty": "अभी तक कोई वर्कआउट नहीं"
+  },
+  
+  "workoutHistoryDialog": {
+    "title": "वर्कआउट इतिहास",
+    "today": "आज",
+    "yesterday": "कल",
+    "thisWeek": "इस सप्ताह",
+    "calories": "कैलोरी",
+    "avgHR": "औसत हृदय गति",
+    "minutes": "मिनट",
+    "empty": "अभी तक कोई वर्कआउट नहीं",
+    "zones": {
+      "light": "हल्का",
+      "moderate": "मध्यम",
+      "intense": "तीव्र"
+    }
+  },
+  
+  "fitnessDashboard": {
+    "title": "फिटनेस",
+    "subtitle": "अपने वर्कआउट और गतिविधि को ट्रैक करें",
+    "viewHistory": "इतिहास देखें"
+
+},
+
+  "register": {
+    "title": "खाता बनाएं",
+    "identifier": "ईमेल या फोन",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "register": "पंजीकरण करें",
+    "alreadyAccount": "पहले से खाता है?",
+    "login": "लॉगिन"
+  },
+  
+  "login": {
+    "title": "लॉगिन",
+    "identifier": "ईमेल या फोन",
+    "password": "पासवर्ड",
+    "login": "लॉगिन",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "createAccount": "खाता बनाएं",
+    "invalidCredentials": "अमान्य लॉगिन विवरण"
+  },
+
+
+  "forgotPassword": {
+    "title": "पासवर्ड भूल गए",
+    "emailInstruction": "OTP प्राप्त करने के लिए अपना पंजीकृत ईमेल दर्ज करें",
+    "email": "ईमेल",
+    "sendOtp": "OTP भेजें",
+    "backLogin": "लॉगिन पर वापस जाएं",
+
+    "verifyTitle": "OTP सत्यापित करें",
+    "verifyInstruction": "अपने ईमेल पर भेजा गया OTP दर्ज करें",
+    "enterOtp": "OTP दर्ज करें",
+    "changeEmail": "ईमेल बदलें",
+    "resendOtp": "OTP पुनः भेजें",
+
+    "resetTitle": "पासवर्ड रीसेट करें",
+    "resetInstruction": "नया सुरक्षित पासवर्ड बनाएं",
+    "newPassword": "नया पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "updatePassword": "पासवर्ड अपडेट करें"
+  },
+  
+  "liveMonitor": {
+    "title": "लाइव मॉनिटर • मल्टी डिवाइस मोड",
+    "ecg": "ईसीजी लीड II",
+    "heartRate": "हृदय गति",
+    "spo2": "ऑक्सीजन स्तर (SpO₂)",
+    "oxygen": "ऑक्सीजन",
+    "temperature": "शरीर का तापमान",
+    "stress": "तनाव",
+    "bloodPressure": "रक्तचाप"
+  },
+
+  
+  "heartRate": {
+    "title": "हृदय गति विश्लेषण",
+    "subtitle": "रियल-टाइम मॉनिटरिंग और ऐतिहासिक डेटा",
+    "loading": "लोड हो रहा है...",
+    "minimum": "न्यूनतम",
+    "average": "औसत",
+    "maximum": "अधिकतम",
+    "lastMeasurement": "अंतिम माप",
+    "chartTitle": "समय के साथ हृदय गति"
+  },
+  
+ 
+  "heartChart": {
+    "normal": "सामान्य",
+    "bradycardia": "धीमी हृदय गति",
+    "tachycardia": "तेज हृदय गति",
+    "elevated": "उच्च",
+
+    "aboveNormal": "हृदय गति सामान्य सीमा से अधिक है",
+
+    "current": "वर्तमान",
+
+    "min": "न्यूनतम",
+    "avg": "औसत",
+    "max": "अधिकतम",
+
+    "bpm": "{value} bpm",
+
+    "minValue": "न्यूनतम: {value} bpm",
+    "avgValue": "औसत: {value} bpm",
+    "maxValue": "अधिकतम: {value} bpm"
+  },
+
+  
+  "steps": {
+    "title": "गतिविधि निगरानी",
+    "subtitle": "दैनिक कदम और प्रति घंटा वितरण",
+    "noData": "कोई डेटा नहीं",
+    "autoUpdate": "हर 30 सेकंड में स्वतः अपडेट",
+    "refresh": "अभी रीफ्रेश करें"
+  },
+  
+
+  "stepsChart": {
+    "weeklyTitle": "साप्ताहिक कदम वितरण",
+    "hourlyTitle": "घंटेवार कदम वितरण",
+    "minuteTitle": "हाल की गतिविधि",
+
+    "weeklySubtitle": "पिछले 7 दिनों में प्रतिदिन कदम",
+    "hourlySubtitle": "दिन भर में प्रति घंटा कदम",
+    "minuteSubtitle": "हाल के मिनटों में रिकॉर्ड किए गए कदम",
+
+    "avg": "औसत: {value} कदम/{unit}",
+    "peak": "पीक: {time} ({value})",
+
+    "maxDay": "अधिकतम: {value} कदम/दिन",
+    "maxHour": "अधिकतम: {value} कदम/घंटा",
+    "maxMinute": "अधिकतम: {value} कदम/मिनट",
+
+    "total": "कुल: {value} कदम",
+
+    "day": "दिन",
+    "hour": "घंटा"
+  },
+
+  
+  "stepsDial": {
+    "steps": "कदम",
+    "complete": "{value}% पूर्ण",
+    "dailyProgress": "दैनिक गतिविधि प्रगति",
+    "progress": "प्रगति",
+
+    "distance": "दूरी",
+    "calories": "कैलोरी",
+    "pace": "गति",
+    "remaining": "शेष",
+
+    "monitoringPeriod": "निगरानी अवधि",
+
+    "goal": "दैनिक लक्ष्य: {value} कदम",
+    "remainingGoal": "लक्ष्य तक पहुँचने के लिए {value} और कदम"
+  },
+
+  
+  "spo2": {
+    "subtitle": "ऑक्सीजन संतृप्ति",
+
+    "lowest": "न्यूनतम",
+    "current": "वर्तमान",
+    "highest": "अधिकतम",
+
+    "normal": "सामान्य",
+    "low": "कम",
+    "critical": "गंभीर",
+
+    "noData": "कोई डेटा नहीं",
+
+    "chartHint": "डॉट = औसत SpO₂ · पिल ऊंचाई = न्यूनतम–अधिकतम सीमा"
+  },
+  
+  "spo2Chart": {
+    "collecting": "SpO₂ डेटा एकत्र किया जा रहा है।",
+    "wearDevice": "रुझान देखने के लिए कुछ मिनट तक डिवाइस पहनें।",
+
+    "current": "वर्तमान",
+    "min": "न्यूनतम",
+    "max": "अधिकतम"
+  },
+
+  
+  "stress": {
+    "title": "तनाव",
+    "subtitle": "मानसिक तनाव विश्लेषण",
+
+    "current": "वर्तमान",
+    "min": "न्यूनतम",
+    "max": "अधिकतम",
+
+    "lastMeasurement": "अंतिम मापन",
+    "noData": "कोई डेटा नहीं"
+  },
+
+  
+  "stressDonut": {
+    "zone": "तनाव स्तर",
+
+    "noData": "कोई डेटा नहीं",
+    "relax": "आराम",
+    "normal": "सामान्य",
+    "moderate": "मध्यम",
+    "high": "उच्च"
+  },
+  
+  "stressChart": {
+    "noData": "कोई डेटा नहीं",
+    "relax": "आराम",
+    "normal": "सामान्य",
+    "moderate": "मध्यम",
+    "high": "उच्च",
+    "avgStress": "औसत तनाव"
+  },
+
+  
+  "dashboard": {
+    "common": {
+      "lastMeasured": "अंतिम मापन"
+    },
+    "heartRate": {
+      "title": "हृदय गति",
+      "currentRate": "वर्तमान दर",
+      "normal": "सामान्य",
+      "monitor": "निगरानी"
+    },
+    "steps": {
+      "title": "कदम",
+      "today": "आज की गतिविधि",
+      "loading": "लोड हो रहा है...",
+      "active": "सक्रिय",
+      "moderate": "मध्यम"
+    },
+    "battery": {
+      "title": "बैटरी",
+      "level": "डिवाइस बैटरी",
+      "good": "अच्छा",
+      "low": "कम"
+    },
+    "ecg": {
+      "title": "ईसीजी",
+      "subtitle": "सिंगल-लीड ईसीजी (लीड I)",
+      "noRecord": "कोई ईसीजी रिकॉर्ड नहीं"
+    },
+    "spo2": {
+      "title": "SpO₂",
+      "current": "वर्तमान ऑक्सीजन"
+    },
+    "sleep": {
+      "title": "नींद",
+      "duration": "कुल नींद अवधि",
+      "good": "अच्छा",
+      "moderate": "मध्यम",
+      "low": "कम",
+      "noData": "कोई डेटा नहीं"
+    },
+    "bp": {
+      "title": "ब्लड प्रेशर",
+      "current": "वर्तमान बीपी",
+      "pulse": "नाड़ी",
+      "noData": "कोई डेटा नहीं"
+    },
+    "glucose": {
+      "title": "ब्लड ग्लूकोज",
+      "last": "अंतिम रीडिंग"
+    },
+    "temperature": {
+      "title": "तापमान",
+      "body": "शरीर का तापमान",
+      "noData": "कोई डेटा नहीं"
+    },
+    "stress": {
+      "title": "तनाव",
+      "level": "तनाव स्तर"
+    }
+  },
+
+  
+  "ecg": {
+    "title": "ईसीजी वेवफॉर्म",
+    "sampling": "सैंपलिंग",
+    "duration": "अवधि",
+    "recordedAt": "रिकॉर्ड किया गया",
+    "playing": "ईसीजी सिग्नल चल रहा है…",
+    "complete": "प्लेबैक पूरा हुआ",
+    "voltage": "वोल्टेज (mV)",
+    "time": "समय (मिलीसेकंड)",
+    "replay": "ईसीजी पुनः चलाएँ"
+  },
+
+  
+  "ecgMonitor": {
+    "title": "ईसीजी मॉनिटर",
+    "heartRate": "हृदय गति",
+    "prInterval": "PR अंतराल",
+    "qtInterval": "QT अंतराल",
+    "qrsDuration": "QRS अवधि",
+    "liveSignal": "लाइव सिग्नल"
+  },
+  
+  "ecgSessions": {
+    "title": "ईसीजी सत्र",
+    "duration": "अवधि",
+    "samplingRate": "सैंपलिंग दर",
+    "leadInfo": "Lead I • 25 mm/s • 10 mm/mV",
+    "viewWaveform": "वेवफॉर्म देखें →"
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
