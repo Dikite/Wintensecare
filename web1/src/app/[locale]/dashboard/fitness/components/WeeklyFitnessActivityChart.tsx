@@ -1,5 +1,5 @@
 "use client";
-
+ 
 import {
   Box,
   Grid,
@@ -21,7 +21,7 @@ import {
   CartesianGrid,
 } from "recharts";
 import { WorkoutSession } from "@/types/exercise";
-
+ 
 /* =========================
    BUILD LAST 7 DAYS DATA
    (TODAY IS LAST)
@@ -29,19 +29,19 @@ import { WorkoutSession } from "@/types/exercise";
 function buildWeeklyData(history: WorkoutSession[]) {
  const t = useTranslations("fitnessWeekly");
   const today = new Date();
-
+ 
   const days: {
     key: string;
     label: string;
     value: number;
     details: WorkoutSession[];
   }[] = [];
-
+ 
   // build last 7 days
   for (let i = 6; i >= 0; i--) {
     const d = new Date(today);
     d.setDate(today.getDate() - i);
-
+ 
     days.push({
       key: d.toISOString().slice(0, 10),
       label: d.toLocaleDateString(undefined, {
@@ -51,40 +51,37 @@ function buildWeeklyData(history: WorkoutSession[]) {
       details: [],
     });
   }
-
+ 
   history.forEach((h) => {
     const day = days.find(
       (d) => d.key === h.startTime.slice(0, 10)
     );
     if (!day) return;
-
-    const calories =
-      typeof h.calories === "number"
-        ? h.calories
-        : Math.round(h.duration / 60);
-
-    day.value += calories;
+ 
+    const minutes = Math.round(h.duration / 60);
+ 
+day.value += minutes;
     day.details.push(h);
   });
-
+ 
   return days;
 }
-
+ 
 /* =========================
    CUSTOM TOOLTIP
 ========================= */
 function CustomTooltip({ active, payload }: any) {
   const t = useTranslations("fitnessWeekly");
   if (!active || !payload?.length) return null;
-
+ 
   const day = payload[0].payload;
-
+ 
   return (
     <Paper sx={{ p: 1.5, borderRadius: 2 }}>
       <Typography fontWeight={700}>
         {day.label}
       </Typography>
-
+ 
       {day.details.length === 0 && (
         <Typography
           fontSize={12}
@@ -93,7 +90,7 @@ function CustomTooltip({ active, payload }: any) {
           {t("noWorkouts")}
         </Typography>
       )}
-
+ 
       {day.details.map((d: WorkoutSession) => (
         <Typography
           key={d.id}
@@ -101,29 +98,29 @@ function CustomTooltip({ active, payload }: any) {
           color="text.secondary"
         >
           {new Date(d.startTime).toLocaleTimeString()} ·{" "}
-          {d.type} · {d.calories ?? "--"} {t("kcal")}
+          {d.type} · {Math.round(d.duration / 60)} min
         </Typography>
       ))}
     </Paper>
   );
 }
-
+ 
 type Props = {
   history: WorkoutSession[];
 };
-
+ 
 export default function FitnessWeeklyActivity({
   history,
 }: Props) {
   const theme = useTheme();
-
+ 
   // ❌ hide chart if no API data
   if (!history || history.length === 0) {
     return null;
   }
-
+ 
   const data = buildWeeklyData(history);
-
+ 
   const t = useTranslations("fitnessWeekly");
   return (
     <Paper
@@ -162,7 +159,7 @@ export default function FitnessWeeklyActivity({
             <MonitorHeartIcon fontSize="small" />
           </Box>
         </Grid>
-
+ 
         <Grid item xs>
           <Stack>
             <Typography fontWeight={700}>
@@ -177,7 +174,7 @@ export default function FitnessWeeklyActivity({
           </Stack>
         </Grid>
       </Grid>
-
+ 
       {/* ================= CHART ================= */}
       <Box sx={{ width: "100%", height: 260 }}>
         <ResponsiveContainer>
@@ -192,7 +189,7 @@ export default function FitnessWeeklyActivity({
                 0.15
               )}
             />
-
+ 
             <XAxis
               dataKey="label"
               axisLine={false}
@@ -203,25 +200,26 @@ export default function FitnessWeeklyActivity({
                   theme.palette.text.secondary,
               }}
             />
-
-            <YAxis
-              axisLine={false}
-              tickLine={false}
-              tick={{
-                fontSize: 12,
-                fill:
-                  theme.palette.text.secondary,
-              }}
-              width={56}
-            />
-
+ 
+           <YAxis
+  axisLine={false}
+  tickLine={false}
+  domain={[0, 250]}
+  tickCount={6}
+  tick={{
+    fontSize: 12,
+    fill: theme.palette.text.secondary,
+  }}
+  width={56}
+/>
+ 
             <Tooltip
               content={<CustomTooltip />}
               cursor={{
                 strokeDasharray: "3 3",
               }}
             />
-
+ 
             <Line
               type="monotone"
               dataKey="value"
@@ -238,3 +236,5 @@ export default function FitnessWeeklyActivity({
     </Paper>
   );
 }
+ 
+ 

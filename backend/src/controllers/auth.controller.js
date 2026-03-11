@@ -76,7 +76,14 @@ async function login(req, res) {
     { expiresIn: '6h' }
   );
 
-  return res.json({ accessToken: token });
+  res.json({
+  accessToken: token,
+  user: {
+    id: user.id,
+    email: user.email,
+    role: user.role
+  }
+});
 }
 
 

@@ -1,5 +1,5 @@
 "use client";
-
+ 
 import React from "react";
 import {
   ToggleButton,
@@ -9,18 +9,18 @@ import {
 } from "@mui/material";
 import { useTranslations } from "next-intl";
 import { WorkoutType } from "@/types/exercise";
-
+ 
 /* ================================
    START WORKOUT
 ================================ */
-
+ 
 type StartWorkoutProps = {
   startWorkout: (type: WorkoutType) => void;
   selectedType: WorkoutType;
   onTypeChange: (t: WorkoutType) => void;
 };
-
-
+ 
+ 
 export function StartWorkout({
   startWorkout,
   selectedType,
@@ -35,13 +35,13 @@ export function StartWorkout({
         onChange={(_, v) => v && onTypeChange(v)}
         fullWidth
       >
-       <ToggleButton value="cardio">{t("cardio")}</ToggleButton>
-        <ToggleButton value="hiit">{t("hiit")}</ToggleButton>
-<ToggleButton value="walk">{t("walk")}</ToggleButton>
-<ToggleButton value="run">{t("run")}</ToggleButton>
-<ToggleButton value="gym">{t("gym")}</ToggleButton>
+       <ToggleButton value="cardio">Cardio</ToggleButton>
+        <ToggleButton value="hiit">HIIT</ToggleButton>
+<ToggleButton value="walk">Walk</ToggleButton>
+<ToggleButton value="run">Run</ToggleButton>
+<ToggleButton value="gym">Gym</ToggleButton>
       </ToggleButtonGroup>
-
+ 
       <Button
         variant="contained"
         color="success"
@@ -53,15 +53,15 @@ export function StartWorkout({
     </Stack>
   );
 }
-
+ 
 /* ================================
    END WORKOUT
 ================================ */
-
+ 
 type EndWorkoutProps = {
   endWorkout: () => void;
 };
-
+ 
 export function EndWorkout({ endWorkout }: EndWorkoutProps) {
     const t = useTranslations("workoutControls");
   return (
@@ -75,3 +75,5 @@ export function EndWorkout({ endWorkout }: EndWorkoutProps) {
     </Button>
   );
 }
+ 
+ 

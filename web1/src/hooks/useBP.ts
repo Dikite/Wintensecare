@@ -117,15 +117,26 @@ export function useBP(
           }))
           .sort((a, b) => a.ts - b.ts);
  
-        setLatest(allPoints[allPoints.length - 1]);
+       
  
         let chartPoints: BPPoint[] = [];
  
-        if (["30m", "1h", "1d"].includes(range)) {
-          chartPoints = allPoints.filter(
-            p => p.ts >= now - getRangeMs(range)
-          );
-        } else if (range === "1w") {
+        if (range === "30m" || range === "1h") {
+  chartPoints = allPoints.filter(
+    p => p.ts >= now - getRangeMs(range)
+  );
+}
+ 
+else if (range === "1d") {
+  const todayStart = new Date();
+  todayStart.setHours(0, 0, 0, 0);
+ 
+  chartPoints = allPoints.filter(
+    p => p.ts >= todayStart.getTime()
+  );
+}
+ 
+        else if (range === "1w") {
           chartPoints = aggregateDaily(
             allPoints.filter(
               p => p.ts >= now - 7 * 24 * 60 * 60 * 1000
@@ -140,6 +151,9 @@ export function useBP(
         }
  
         setPoints(chartPoints);
+ 
+        setLatest(chartPoints.length ? chartPoints[chartPoints.length - 1] : null);
+ 
         setInfoMessage(
           chartPoints.length ? "" : "No BP data in this time range"
         );
@@ -167,6 +181,7 @@ export function useBP(
     infoMessage,
   };
 }
+ 
  
  
  

@@ -6,19 +6,24 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
-
+enum UserRole {
+  USER
+  DOCTOR
+  ADMIN
+  NOC_OPERATOR
+}
 model User {
   id        String   @id @default(uuid())
   email     String?  @unique
   phone     String?  @unique
   password  String
-  role      String   @default("user")
+  role      UserRole @default(USER)
   devices   Device[]
   createdAt DateTime @default(now())
-permission UserPermission?
-  glucoseReadings GlucoseReading[]
-workoutSessions WorkoutSession[]
 
+  permission UserPermission?
+  glucoseReadings GlucoseReading[]
+  workoutSessions WorkoutSession[]
   doctorAccess UserDoctorAccess[]
 }
 

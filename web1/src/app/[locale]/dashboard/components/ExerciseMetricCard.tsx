@@ -1,12 +1,12 @@
 "use client";
-
+ 
 import { MuiMetricCard } from "../../components/MuiMetricCard";
 import { Stack, Typography, Box, Grid } from "@mui/material";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import { useRouter } from "@/navigation";
 import { WorkoutSession } from "@/types/exercise";
 import { useTranslations } from "next-intl";
-
+ 
 /* ================================
    ACTIVITY RINGS
 ================================ */
@@ -30,7 +30,7 @@ function ActivityRings({
   const stroke = 10;
   const gap = 4;
   const center = size / 2;
-
+ 
   const rMove = center - stroke;
   const rExercise = rMove - stroke - gap;
   const rWalk = rExercise - stroke - gap;
@@ -38,7 +38,7 @@ const t = useTranslations("exerciseMetric");
   const C = (r: number) => 2 * Math.PI * r;
   const offset = (v: number, g: number, r: number) =>
     C(r) * (1 - Math.min(v / g, 1));
-
+ 
   const Ring = ({
     r,
     bg,
@@ -75,7 +75,7 @@ const t = useTranslations("exerciseMetric");
       />
     </>
   );
-
+ 
   return (
     <svg width={size} height={size}>
       <Ring r={rMove} bg="#fbd5db" fg="#ef4444" value={moveValue} goal={moveGoal} />
@@ -90,7 +90,7 @@ const t = useTranslations("exerciseMetric");
     </svg>
   );
 }
-
+ 
 /* ================================
    HELPERS
 ================================ */
@@ -100,54 +100,54 @@ const t = useTranslations("exerciseMetric");
   const todaySessions = history.filter(
     (w) => w.startTime.slice(0, 10) === today
   );
-
+ 
   const calories = todaySessions.reduce(
     (sum, w) => sum + (w.calories ?? 0),
     0
   );
-
+ 
   const exerciseMin = Math.round(
     todaySessions.reduce((sum, w) => sum + (w.duration ?? 0), 0) / 60
   );
-
+ 
   return {
     calories,
     exerciseMin,
     workouts: todaySessions.length,
   };
 }
-
+ 
 /* ================================
    MAIN CARD
 ================================ */
 type Props = {
   history: WorkoutSession[];
 };
-
+ 
 export default function ExerciseMetricCard({ history }: Props) {
   const router = useRouter();
 const t = useTranslations("exerciseMetric");
   /* LIVE STATE */
   const isLive = history.some((w) => w.status === "ACTIVE");
-
+ 
   /* GOALS */
-  const MOVE_GOAL = 2000;
-  const EXERCISE_GOAL = 400;
-  const WALK_GOAL = 12;
-
+  const MOVE_GOAL = 800;
+  const EXERCISE_GOAL = 250;
+  const WALK_GOAL = 5;
+ 
   const today = getTodayStats(history);
-
+ 
   const move = today.calories;
   const exerciseMin = today.exerciseMin;
   const workouts = today.workouts;
   const walkHr = Math.round(exerciseMin / 60);
-
+ 
   return (
     <MuiMetricCard
       title={
         <Stack direction="row" spacing={1} alignItems="center">
           <Typography fontWeight={700}>{t("title")}</Typography>
-
+ 
           <Box
             sx={{
               width: 8,
@@ -156,7 +156,7 @@ const t = useTranslations("exerciseMetric");
               bgcolor: isLive ? "#ef4444" : "#9ca3af",
             }}
           />
-
+ 
           <Typography
             fontWeight={700}
             fontSize={12}
@@ -187,7 +187,7 @@ const t = useTranslations("exerciseMetric");
             </Typography>
           </Stack>
         </Grid>
-
+ 
         {/* CENTER */}
         <Grid item xs>
           <Stack spacing={0.6} alignItems="center" textAlign="center">
@@ -197,7 +197,7 @@ const t = useTranslations("exerciseMetric");
             </Typography>
           </Stack>
         </Grid>
-
+ 
         {/* RIGHT */}
         <Grid item xs="auto" sx={{ minWidth: 160, pr: 2 }}>
           <ActivityRings
@@ -213,3 +213,5 @@ const t = useTranslations("exerciseMetric");
     </MuiMetricCard>
   );
 }
+ 
+ 

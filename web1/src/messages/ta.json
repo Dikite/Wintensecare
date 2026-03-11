@@ -255,13 +255,13 @@
     "noWorkout": "இன்று உடற்பயிற்சி இல்லை"
   },
   
-  "weeklyStats": {
-    "title": "Weekly Summary",
-    "workouts": "Workouts",
-    "duration": "Duration",
-    "calories": "Calories",
-    "avgHR": "Avg HR"
-  },
+"weeklyStats": {
+  "title": "வார சுருக்கம்",
+  "workouts": "பயிற்சிகள்",
+  "duration": "நேரம்",
+  "calories": "காலோரிகள்",
+  "avgHR": "சராசரி இதய துடிப்பு"
+},
   
   "fitnessWeekly": {
     "title": "உடற்பயிற்சி செயல்பாடு",
